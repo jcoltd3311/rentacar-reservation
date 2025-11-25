@@ -1,64 +1,77 @@
-import Image from "next/image";
-import styles from "./page.module.css";
+
+'use client'
+
+import { useState } from 'react';
+import { useRouter } from 'next/navigation';
+import styles from './page.module.css';
 
 export default function Home() {
+  const router = useRouter();
+  const [carType, setCarType] = useState('');
+  const [pickupDate, setPickupDate] = useState('');
+  const [returnDate, setReturnDate] = useState('');
+  const [store, setStore] = useState('');
+
+  const handleSearch = () => {
+    const query = {
+      carType,
+      pickupDate,
+      returnDate,
+      store,
+    };
+
+    Object.keys(query).forEach(key => {
+      if (!query[key]) {
+        delete query[key];
+      }
+    });
+
+    const queryString = new URLSearchParams(query).toString();
+    router.push(`/search?${queryString}`);
+  };
+
   return (
     <div className={styles.page}>
       <main className={styles.main}>
-        <Image
-          className={styles.logo}
-          src="/next.svg"
-          alt="Next.js logo"
-          width={100}
-          height={20}
-          priority
-        />
-        <div className={styles.intro}>
-          <h1>To get started, edit the page.js file.</h1>
-          <p>
-            Looking for a starting point or more instructions? Head over to{" "}
-            <a
-              href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Templates
-            </a>{" "}
-            or the{" "}
-            <a
-              href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Learning
-            </a>{" "}
-            center.
-          </p>
+        <div className={styles.hero}>
+          <h1>お気に入りのレンタカーを見つけよう</h1>
+          <p>数分でレンタカーを予約できます</p>
         </div>
-        <div className={styles.ctas}>
-          <a
-            className={styles.primary}
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className={styles.logo}
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={16}
-              height={16}
-            />
-            Deploy Now
-          </a>
-          <a
-            className={styles.secondary}
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Documentation
-          </a>
+
+        <div className={styles.searchContainer}>
+          <div className={styles.searchForm}>
+            <div className={styles.formGroup}>
+              <label htmlFor="carType">車種</label>
+              <select id="carType" value={carType} onChange={(e) => setCarType(e.target.value)}>
+                <option value="">車種を選択</option>
+                <option value="sedan">セダン</option>
+                <option value="suv">SUV</option>
+                <option value="truck">トラック</option>
+              </select>
+            </div>
+
+            <div className={styles.formGroup}>
+              <label htmlFor="pickupDate">利用開始日</label>
+              <input type="date" id="pickupDate" value={pickupDate} onChange={(e) => setPickupDate(e.target.value)} />
+            </div>
+
+            <div className={styles.formGroup}>
+              <label htmlFor="returnDate">返却日</label>
+              <input type="date" id="returnDate" value={returnDate} onChange={(e) => setReturnDate(e.target.value)} />
+            </div>
+
+            <div className={styles.formGroup}>
+              <label htmlFor="store">店舗</label>
+              <select id="store" value={store} onChange={(e) => setStore(e.target.value)}>
+                <option value="">店舗を選択</option>
+                <option value="store1">店舗1</option>
+                <option value="store2">店舗2</option>
+                <option value="store3">店舗3</option>
+              </select>
+            </div>
+
+            <button onClick={handleSearch} className={styles.searchButton}>検索</button>
+          </div>
         </div>
       </main>
     </div>
