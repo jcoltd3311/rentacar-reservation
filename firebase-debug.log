@@ -95,3 +95,513 @@ You're about to initialize a Firebase project in this directory:
 [error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
 [debug] [2025-11-25T11:27:59.209Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/userinfo.email"]
 [debug] [2025-11-25T11:27:59.210Z] > authorizing via signed-in user (akio.jcoltd@gmail.com)
+[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
+[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
+[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
+[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
+[debug] [2025-11-25T12:55:34.483Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/userinfo.email"]
+[debug] [2025-11-25T12:55:34.485Z] > authorizing via signed-in user (akio.jcoltd@gmail.com)
+[debug] [2025-11-25T12:55:34.502Z] Checked if tokens are valid: false, expires at: 1764071975355
+[debug] [2025-11-25T12:55:34.503Z] Checked if tokens are valid: false, expires at: 1764071975355
+[debug] [2025-11-25T12:55:34.503Z] > refreshing access token with scopes: []
+[debug] [2025-11-25T12:55:34.506Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2025-11-25T12:55:34.506Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2025-11-25T12:55:34.567Z] Checked if tokens are valid: false, expires at: 1764071975355
+[debug] [2025-11-25T12:55:34.567Z] Checked if tokens are valid: false, expires at: 1764071975355
+[debug] [2025-11-25T12:55:34.568Z] > refreshing access token with scopes: []
+[debug] [2025-11-25T12:55:34.568Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2025-11-25T12:55:34.569Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2025-11-25T12:55:34.572Z] Checked if tokens are valid: false, expires at: 1764071975355
+[debug] [2025-11-25T12:55:34.572Z] Checked if tokens are valid: false, expires at: 1764071975355
+[debug] [2025-11-25T12:55:34.572Z] > refreshing access token with scopes: []
+[debug] [2025-11-25T12:55:34.573Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2025-11-25T12:55:34.573Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2025-11-25T12:55:34.576Z] Checked if tokens are valid: false, expires at: 1764071975355
+[debug] [2025-11-25T12:55:34.576Z] Checked if tokens are valid: false, expires at: 1764071975355
+[debug] [2025-11-25T12:55:34.576Z] > refreshing access token with scopes: []
+[debug] [2025-11-25T12:55:34.576Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2025-11-25T12:55:34.576Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2025-11-25T12:55:34.578Z] Checked if tokens are valid: false, expires at: 1764071975355
+[debug] [2025-11-25T12:55:34.579Z] Checked if tokens are valid: false, expires at: 1764071975355
+[debug] [2025-11-25T12:55:34.579Z] > refreshing access token with scopes: []
+[debug] [2025-11-25T12:55:34.579Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2025-11-25T12:55:34.579Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2025-11-25T12:55:34.581Z] Checked if tokens are valid: false, expires at: 1764071975355
+[debug] [2025-11-25T12:55:34.581Z] Checked if tokens are valid: false, expires at: 1764071975355
+[debug] [2025-11-25T12:55:34.581Z] > refreshing access token with scopes: []
+[debug] [2025-11-25T12:55:34.582Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2025-11-25T12:55:34.582Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2025-11-25T12:55:34.584Z] Checked if tokens are valid: false, expires at: 1764071975355
+[debug] [2025-11-25T12:55:34.584Z] Checked if tokens are valid: false, expires at: 1764071975355
+[debug] [2025-11-25T12:55:34.584Z] > refreshing access token with scopes: []
+[debug] [2025-11-25T12:55:34.584Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2025-11-25T12:55:34.585Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2025-11-25T12:55:34.605Z] Checked if tokens are valid: false, expires at: 1764071975355
+[debug] [2025-11-25T12:55:34.607Z] Checked if tokens are valid: false, expires at: 1764071975355
+[debug] [2025-11-25T12:55:34.607Z] > refreshing access token with scopes: []
+[debug] [2025-11-25T12:55:34.608Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2025-11-25T12:55:34.608Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2025-11-25T12:55:34.616Z] Checked if tokens are valid: false, expires at: 1764071975355
+[debug] [2025-11-25T12:55:34.616Z] Checked if tokens are valid: false, expires at: 1764071975355
+[debug] [2025-11-25T12:55:34.616Z] > refreshing access token with scopes: []
+[debug] [2025-11-25T12:55:34.617Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2025-11-25T12:55:34.617Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2025-11-25T12:55:34.620Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/userinfo.email"]
+[debug] [2025-11-25T12:55:34.621Z] > authorizing via signed-in user (akio.jcoltd@gmail.com)
+[debug] [2025-11-25T12:55:34.622Z] Checked if tokens are valid: false, expires at: 1764071975355
+[debug] [2025-11-25T12:55:34.622Z] Checked if tokens are valid: false, expires at: 1764071975355
+[debug] [2025-11-25T12:55:34.622Z] > refreshing access token with scopes: []
+[debug] [2025-11-25T12:55:34.623Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2025-11-25T12:55:34.623Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2025-11-25T12:55:34.626Z] Checked if tokens are valid: false, expires at: 1764071975355
+[debug] [2025-11-25T12:55:34.626Z] Checked if tokens are valid: false, expires at: 1764071975355
+[debug] [2025-11-25T12:55:34.626Z] > refreshing access token with scopes: []
+[debug] [2025-11-25T12:55:34.627Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2025-11-25T12:55:34.627Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2025-11-25T12:55:34.630Z] Checked if tokens are valid: false, expires at: 1764071975355
+[debug] [2025-11-25T12:55:34.630Z] Checked if tokens are valid: false, expires at: 1764071975355
+[debug] [2025-11-25T12:55:34.630Z] > refreshing access token with scopes: []
+[debug] [2025-11-25T12:55:34.631Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2025-11-25T12:55:34.631Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2025-11-25T12:55:34.635Z] Checked if tokens are valid: false, expires at: 1764071975355
+[debug] [2025-11-25T12:55:34.635Z] Checked if tokens are valid: false, expires at: 1764071975355
+[debug] [2025-11-25T12:55:34.635Z] > refreshing access token with scopes: []
+[debug] [2025-11-25T12:55:34.636Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2025-11-25T12:55:34.636Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2025-11-25T12:55:34.639Z] Checked if tokens are valid: false, expires at: 1764071975355
+[debug] [2025-11-25T12:55:34.639Z] Checked if tokens are valid: false, expires at: 1764071975355
+[debug] [2025-11-25T12:55:34.639Z] > refreshing access token with scopes: []
+[debug] [2025-11-25T12:55:34.639Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2025-11-25T12:55:34.640Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2025-11-25T12:55:34.643Z] Checked if tokens are valid: false, expires at: 1764071975355
+[debug] [2025-11-25T12:55:34.643Z] Checked if tokens are valid: false, expires at: 1764071975355
+[debug] [2025-11-25T12:55:34.643Z] > refreshing access token with scopes: []
+[debug] [2025-11-25T12:55:34.644Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2025-11-25T12:55:34.644Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2025-11-25T12:55:34.647Z] Checked if tokens are valid: false, expires at: 1764071975355
+[debug] [2025-11-25T12:55:34.647Z] Checked if tokens are valid: false, expires at: 1764071975355
+[debug] [2025-11-25T12:55:34.647Z] > refreshing access token with scopes: []
+[debug] [2025-11-25T12:55:34.647Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2025-11-25T12:55:34.647Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2025-11-25T12:55:34.659Z] Checked if tokens are valid: false, expires at: 1764071975355
+[debug] [2025-11-25T12:55:34.659Z] Checked if tokens are valid: false, expires at: 1764071975355
+[debug] [2025-11-25T12:55:34.660Z] > refreshing access token with scopes: []
+[debug] [2025-11-25T12:55:34.660Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2025-11-25T12:55:34.660Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2025-11-25T12:55:34.663Z] Checked if tokens are valid: false, expires at: 1764071975355
+[debug] [2025-11-25T12:55:34.663Z] Checked if tokens are valid: false, expires at: 1764071975355
+[debug] [2025-11-25T12:55:34.663Z] > refreshing access token with scopes: []
+[debug] [2025-11-25T12:55:34.664Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2025-11-25T12:55:34.664Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2025-11-25T12:55:34.875Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2025-11-25T12:55:34.875Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2025-11-25T12:55:34.911Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/rentacar-system/services/firestore.googleapis.com [none]
+[debug] [2025-11-25T12:55:34.911Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/rentacar-system/services/firestore.googleapis.com x-goog-quota-user=projects/rentacar-system
+[debug] [2025-11-25T12:55:34.913Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2025-11-25T12:55:34.913Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2025-11-25T12:55:34.921Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/rentacar-system/services/firebaseremoteconfig.googleapis.com [none]
+[debug] [2025-11-25T12:55:34.922Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/rentacar-system/services/firebaseremoteconfig.googleapis.com x-goog-quota-user=projects/rentacar-system
+[debug] [2025-11-25T12:55:34.924Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2025-11-25T12:55:34.924Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2025-11-25T12:55:34.931Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/rentacar-system/services/firebasedataconnect.googleapis.com [none]
+[debug] [2025-11-25T12:55:34.932Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/rentacar-system/services/firebasedataconnect.googleapis.com x-goog-quota-user=projects/rentacar-system
+[debug] [2025-11-25T12:55:34.940Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2025-11-25T12:55:34.941Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2025-11-25T12:55:34.950Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/rentacar-system/services/storage.googleapis.com [none]
+[debug] [2025-11-25T12:55:34.950Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/rentacar-system/services/storage.googleapis.com x-goog-quota-user=projects/rentacar-system
+[debug] [2025-11-25T12:55:34.961Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2025-11-25T12:55:34.961Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2025-11-25T12:55:34.972Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/rentacar-system/services/firebaseapphosting.googleapis.com [none]
+[debug] [2025-11-25T12:55:34.972Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/rentacar-system/services/firebaseapphosting.googleapis.com x-goog-quota-user=projects/rentacar-system
+[debug] [2025-11-25T12:55:35.001Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2025-11-25T12:55:35.006Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2025-11-25T12:55:35.019Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/rentacar-system/services/fcm.googleapis.com [none]
+[debug] [2025-11-25T12:55:35.019Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/rentacar-system/services/fcm.googleapis.com x-goog-quota-user=projects/rentacar-system
+[debug] [2025-11-25T12:55:35.021Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2025-11-25T12:55:35.021Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2025-11-25T12:55:35.029Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/rentacar-system/services/cloudfunctions.googleapis.com [none]
+[debug] [2025-11-25T12:55:35.029Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/rentacar-system/services/cloudfunctions.googleapis.com x-goog-quota-user=projects/rentacar-system
+[debug] [2025-11-25T12:55:35.063Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2025-11-25T12:55:35.063Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2025-11-25T12:55:35.086Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/rentacar-system/services/firebaseapphosting.googleapis.com [none]
+[debug] [2025-11-25T12:55:35.086Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/rentacar-system/services/firebaseapphosting.googleapis.com x-goog-quota-user=projects/rentacar-system
+[debug] [2025-11-25T12:55:35.104Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2025-11-25T12:55:35.104Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2025-11-25T12:55:35.112Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/rentacar-system/services/firebaseremoteconfig.googleapis.com [none]
+[debug] [2025-11-25T12:55:35.112Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/rentacar-system/services/firebaseremoteconfig.googleapis.com x-goog-quota-user=projects/rentacar-system
+[debug] [2025-11-25T12:55:35.116Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2025-11-25T12:55:35.116Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2025-11-25T12:55:35.130Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/rentacar-system/services/storage.googleapis.com [none]
+[debug] [2025-11-25T12:55:35.130Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/rentacar-system/services/storage.googleapis.com x-goog-quota-user=projects/rentacar-system
+[debug] [2025-11-25T12:55:35.133Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2025-11-25T12:55:35.133Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2025-11-25T12:55:35.143Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/rentacar-system/services/firebaseio.com [none]
+[debug] [2025-11-25T12:55:35.143Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/rentacar-system/services/firebaseio.com x-goog-quota-user=projects/rentacar-system
+[debug] [2025-11-25T12:55:35.145Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2025-11-25T12:55:35.146Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2025-11-25T12:55:35.153Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/rentacar-system/services/identitytoolkit.googleapis.com [none]
+[debug] [2025-11-25T12:55:35.154Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/rentacar-system/services/identitytoolkit.googleapis.com x-goog-quota-user=projects/rentacar-system
+[debug] [2025-11-25T12:55:35.174Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2025-11-25T12:55:35.174Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2025-11-25T12:55:35.188Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/rentacar-system/services/identitytoolkit.googleapis.com [none]
+[debug] [2025-11-25T12:55:35.188Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/rentacar-system/services/identitytoolkit.googleapis.com x-goog-quota-user=projects/rentacar-system
+[debug] [2025-11-25T12:55:35.214Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2025-11-25T12:55:35.214Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2025-11-25T12:55:35.232Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/rentacar-system/services/firebasedataconnect.googleapis.com [none]
+[debug] [2025-11-25T12:55:35.232Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/rentacar-system/services/firebasedataconnect.googleapis.com x-goog-quota-user=projects/rentacar-system
+[debug] [2025-11-25T12:55:35.236Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2025-11-25T12:55:35.237Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2025-11-25T12:55:35.245Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/rentacar-system/services/firebaseio.com [none]
+[debug] [2025-11-25T12:55:35.245Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/rentacar-system/services/firebaseio.com x-goog-quota-user=projects/rentacar-system
+[debug] [2025-11-25T12:55:35.297Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2025-11-25T12:55:35.297Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2025-11-25T12:55:35.320Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/rentacar-system/services/firestore.googleapis.com [none]
+[debug] [2025-11-25T12:55:35.320Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/rentacar-system/services/firestore.googleapis.com x-goog-quota-user=projects/rentacar-system
+[debug] [2025-11-25T12:55:35.328Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2025-11-25T12:55:35.328Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2025-11-25T12:55:35.343Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/rentacar-system/services/fcm.googleapis.com [none]
+[debug] [2025-11-25T12:55:35.343Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/rentacar-system/services/fcm.googleapis.com x-goog-quota-user=projects/rentacar-system
+[debug] [2025-11-25T12:55:35.374Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2025-11-25T12:55:35.375Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2025-11-25T12:55:35.395Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/rentacar-system/services/cloudfunctions.googleapis.com [none]
+[debug] [2025-11-25T12:55:35.395Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/rentacar-system/services/cloudfunctions.googleapis.com x-goog-quota-user=projects/rentacar-system
+[debug] [2025-11-25T12:55:35.996Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/rentacar-system/services/firebaseremoteconfig.googleapis.com 200
+[debug] [2025-11-25T12:55:35.996Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/rentacar-system/services/firebaseremoteconfig.googleapis.com [omitted]
+[debug] [2025-11-25T12:55:36.024Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/rentacar-system/services/firestore.googleapis.com 200
+[debug] [2025-11-25T12:55:36.025Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/rentacar-system/services/firestore.googleapis.com [omitted]
+[debug] [2025-11-25T12:55:36.035Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/rentacar-system/services/firebasedataconnect.googleapis.com 200
+[debug] [2025-11-25T12:55:36.035Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/rentacar-system/services/firebasedataconnect.googleapis.com [omitted]
+[debug] [2025-11-25T12:55:36.050Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/rentacar-system/services/storage.googleapis.com 200
+[debug] [2025-11-25T12:55:36.053Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/rentacar-system/services/storage.googleapis.com [omitted]
+[debug] [2025-11-25T12:55:36.236Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/rentacar-system/services/firebaseio.com 403
+[debug] [2025-11-25T12:55:36.236Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/rentacar-system/services/firebaseio.com [omitted]
+[debug] [2025-11-25T12:55:36.334Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/rentacar-system/services/firebaseio.com 403
+[debug] [2025-11-25T12:55:36.335Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/rentacar-system/services/firebaseio.com [omitted]
+[debug] [2025-11-25T12:55:36.363Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/rentacar-system/services/fcm.googleapis.com 200
+[debug] [2025-11-25T12:55:36.363Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/rentacar-system/services/fcm.googleapis.com [omitted]
+[debug] [2025-11-25T12:55:36.382Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/rentacar-system/services/firebaseremoteconfig.googleapis.com 200
+[debug] [2025-11-25T12:55:36.382Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/rentacar-system/services/firebaseremoteconfig.googleapis.com [omitted]
+[debug] [2025-11-25T12:55:36.397Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/rentacar-system/services/firebaseapphosting.googleapis.com 200
+[debug] [2025-11-25T12:55:36.397Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/rentacar-system/services/firebaseapphosting.googleapis.com [omitted]
+[debug] [2025-11-25T12:55:36.404Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/rentacar-system/services/firebaseapphosting.googleapis.com 200
+[debug] [2025-11-25T12:55:36.404Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/rentacar-system/services/firebaseapphosting.googleapis.com [omitted]
+[debug] [2025-11-25T12:55:36.416Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/rentacar-system/services/cloudfunctions.googleapis.com 200
+[debug] [2025-11-25T12:55:36.416Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/rentacar-system/services/cloudfunctions.googleapis.com [omitted]
+[debug] [2025-11-25T12:55:36.425Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/rentacar-system/services/identitytoolkit.googleapis.com 200
+[debug] [2025-11-25T12:55:36.426Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/rentacar-system/services/identitytoolkit.googleapis.com [omitted]
+[debug] [2025-11-25T12:55:36.449Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/rentacar-system/services/identitytoolkit.googleapis.com 200
+[debug] [2025-11-25T12:55:36.449Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/rentacar-system/services/identitytoolkit.googleapis.com [omitted]
+[debug] [2025-11-25T12:55:36.460Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/rentacar-system/services/storage.googleapis.com 200
+[debug] [2025-11-25T12:55:36.461Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/rentacar-system/services/storage.googleapis.com [omitted]
+[debug] [2025-11-25T12:55:36.481Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/rentacar-system/services/cloudfunctions.googleapis.com 200
+[debug] [2025-11-25T12:55:36.486Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/rentacar-system/services/cloudfunctions.googleapis.com [omitted]
+[debug] [2025-11-25T12:55:36.487Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/rentacar-system/services/firebasedataconnect.googleapis.com 200
+[debug] [2025-11-25T12:55:36.487Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/rentacar-system/services/firebasedataconnect.googleapis.com [omitted]
+[debug] [2025-11-25T12:55:36.496Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/rentacar-system/services/fcm.googleapis.com 200
+[debug] [2025-11-25T12:55:36.496Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/rentacar-system/services/fcm.googleapis.com [omitted]
+[debug] [2025-11-25T12:55:36.517Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/rentacar-system/services/firestore.googleapis.com 200
+[debug] [2025-11-25T12:55:36.518Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/rentacar-system/services/firestore.googleapis.com [omitted]
+[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
+[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
+[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
+[debug] [2025-11-25T12:55:36.534Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/userinfo.email"]
+[debug] [2025-11-25T12:55:36.534Z] > authorizing via signed-in user (akio.jcoltd@gmail.com)
+[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
+[debug] [2025-11-25T12:55:36.538Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/userinfo.email"]
+[debug] [2025-11-25T12:55:36.538Z] > authorizing via signed-in user (akio.jcoltd@gmail.com)
+[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
+[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
+[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
+[debug] [2025-11-25T12:55:36.582Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/userinfo.email"]
+[debug] [2025-11-25T12:55:36.583Z] > authorizing via signed-in user (akio.jcoltd@gmail.com)
+[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
+[debug] [2025-11-25T12:55:36.585Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/userinfo.email"]
+[debug] [2025-11-25T12:55:36.585Z] > authorizing via signed-in user (akio.jcoltd@gmail.com)
+[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
+[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
+[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
+[debug] [2025-11-25T12:55:36.595Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/userinfo.email"]
+[debug] [2025-11-25T12:55:36.596Z] > authorizing via signed-in user (akio.jcoltd@gmail.com)
+[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
+[debug] [2025-11-25T12:55:36.597Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/userinfo.email"]
+[debug] [2025-11-25T12:55:36.597Z] > authorizing via signed-in user (akio.jcoltd@gmail.com)
+[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
+[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
+[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
+[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
+[debug] [2025-11-25T13:38:45.562Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/userinfo.email"]
+[debug] [2025-11-25T13:38:45.563Z] > authorizing via signed-in user (akio.jcoltd@gmail.com)
+[debug] [2025-11-25T13:38:45.580Z] Checked if tokens are valid: true, expires at: 1764078934375
+[debug] [2025-11-25T13:38:45.580Z] Checked if tokens are valid: true, expires at: 1764078934375
+[debug] [2025-11-25T13:38:45.581Z] Checked if tokens are valid: true, expires at: 1764078934375
+[debug] [2025-11-25T13:38:45.582Z] Checked if tokens are valid: true, expires at: 1764078934375
+[debug] [2025-11-25T13:38:45.589Z] Checked if tokens are valid: true, expires at: 1764078934375
+[debug] [2025-11-25T13:38:45.589Z] Checked if tokens are valid: true, expires at: 1764078934375
+[debug] [2025-11-25T13:38:45.613Z] Checked if tokens are valid: true, expires at: 1764078934375
+[debug] [2025-11-25T13:38:45.614Z] Checked if tokens are valid: true, expires at: 1764078934375
+[debug] [2025-11-25T13:38:45.614Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/userinfo.email"]
+[debug] [2025-11-25T13:38:45.617Z] > authorizing via signed-in user (akio.jcoltd@gmail.com)
+[debug] [2025-11-25T13:38:45.624Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/rentacar-system/services/firestore.googleapis.com [none]
+[debug] [2025-11-25T13:38:45.625Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/rentacar-system/services/firestore.googleapis.com x-goog-quota-user=projects/rentacar-system
+[debug] [2025-11-25T13:38:45.718Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/rentacar-system/services/firebasedataconnect.googleapis.com [none]
+[debug] [2025-11-25T13:38:45.719Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/rentacar-system/services/firebasedataconnect.googleapis.com x-goog-quota-user=projects/rentacar-system
+[debug] [2025-11-25T13:38:45.723Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/rentacar-system/services/cloudfunctions.googleapis.com [none]
+[debug] [2025-11-25T13:38:45.723Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/rentacar-system/services/cloudfunctions.googleapis.com x-goog-quota-user=projects/rentacar-system
+[debug] [2025-11-25T13:38:45.726Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/rentacar-system/services/firebaseio.com [none]
+[debug] [2025-11-25T13:38:45.726Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/rentacar-system/services/firebaseio.com x-goog-quota-user=projects/rentacar-system
+[debug] [2025-11-25T13:38:45.730Z] Checked if tokens are valid: true, expires at: 1764078934375
+[debug] [2025-11-25T13:38:45.730Z] Checked if tokens are valid: true, expires at: 1764078934375
+[debug] [2025-11-25T13:38:45.731Z] Checked if tokens are valid: true, expires at: 1764078934375
+[debug] [2025-11-25T13:38:45.731Z] Checked if tokens are valid: true, expires at: 1764078934375
+[debug] [2025-11-25T13:38:45.732Z] Checked if tokens are valid: true, expires at: 1764078934375
+[debug] [2025-11-25T13:38:45.732Z] Checked if tokens are valid: true, expires at: 1764078934375
+[debug] [2025-11-25T13:38:45.742Z] Checked if tokens are valid: true, expires at: 1764078934375
+[debug] [2025-11-25T13:38:45.743Z] Checked if tokens are valid: true, expires at: 1764078934375
+[debug] [2025-11-25T13:38:45.743Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/rentacar-system/services/firestore.googleapis.com [none]
+[debug] [2025-11-25T13:38:45.743Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/rentacar-system/services/firestore.googleapis.com x-goog-quota-user=projects/rentacar-system
+[debug] [2025-11-25T13:38:45.755Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/rentacar-system/services/firebasedataconnect.googleapis.com [none]
+[debug] [2025-11-25T13:38:45.756Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/rentacar-system/services/firebasedataconnect.googleapis.com x-goog-quota-user=projects/rentacar-system
+[debug] [2025-11-25T13:38:45.759Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/rentacar-system/services/cloudfunctions.googleapis.com [none]
+[debug] [2025-11-25T13:38:45.760Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/rentacar-system/services/cloudfunctions.googleapis.com x-goog-quota-user=projects/rentacar-system
+[debug] [2025-11-25T13:38:45.762Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/rentacar-system/services/firebaseio.com [none]
+[debug] [2025-11-25T13:38:45.762Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/rentacar-system/services/firebaseio.com x-goog-quota-user=projects/rentacar-system
+[debug] [2025-11-25T13:38:46.877Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/rentacar-system/services/firebaseio.com 403
+[debug] [2025-11-25T13:38:46.878Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/rentacar-system/services/firebaseio.com [omitted]
+[debug] [2025-11-25T13:38:46.902Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/rentacar-system/services/firebaseio.com 403
+[debug] [2025-11-25T13:38:46.902Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/rentacar-system/services/firebaseio.com [omitted]
+[debug] [2025-11-25T13:38:47.109Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/rentacar-system/services/firebasedataconnect.googleapis.com 200
+[debug] [2025-11-25T13:38:47.109Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/rentacar-system/services/firebasedataconnect.googleapis.com [omitted]
+[debug] [2025-11-25T13:38:47.137Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/rentacar-system/services/cloudfunctions.googleapis.com 200
+[debug] [2025-11-25T13:38:47.137Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/rentacar-system/services/cloudfunctions.googleapis.com [omitted]
+[debug] [2025-11-25T13:38:47.139Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/rentacar-system/services/firestore.googleapis.com 200
+[debug] [2025-11-25T13:38:47.139Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/rentacar-system/services/firestore.googleapis.com [omitted]
+[debug] [2025-11-25T13:38:47.146Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/rentacar-system/services/firestore.googleapis.com 200
+[debug] [2025-11-25T13:38:47.146Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/rentacar-system/services/firestore.googleapis.com [omitted]
+[debug] [2025-11-25T13:38:47.157Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/rentacar-system/services/firebasedataconnect.googleapis.com 200
+[debug] [2025-11-25T13:38:47.157Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/rentacar-system/services/firebasedataconnect.googleapis.com [omitted]
+[debug] [2025-11-25T13:38:47.169Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/rentacar-system/services/cloudfunctions.googleapis.com 200
+[debug] [2025-11-25T13:38:47.174Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/rentacar-system/services/cloudfunctions.googleapis.com [omitted]
+[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
+[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
+[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
+[debug] [2025-11-25T13:38:47.196Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/userinfo.email"]
+[debug] [2025-11-25T13:38:47.196Z] > authorizing via signed-in user (akio.jcoltd@gmail.com)
+[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
+[debug] [2025-11-25T13:38:47.207Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/userinfo.email"]
+[debug] [2025-11-25T13:38:47.207Z] > authorizing via signed-in user (akio.jcoltd@gmail.com)
+[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
+[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
+[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
+[debug] [2025-11-25T13:38:47.285Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/userinfo.email"]
+[debug] [2025-11-25T13:38:47.288Z] > authorizing via signed-in user (akio.jcoltd@gmail.com)
+[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
+[debug] [2025-11-25T13:38:47.291Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/userinfo.email"]
+[debug] [2025-11-25T13:38:47.294Z] > authorizing via signed-in user (akio.jcoltd@gmail.com)
+[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
+[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
+[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
+[debug] [2025-11-25T13:38:47.300Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/userinfo.email"]
+[debug] [2025-11-25T13:38:47.300Z] > authorizing via signed-in user (akio.jcoltd@gmail.com)
+[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
+[debug] [2025-11-25T13:38:47.303Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/userinfo.email"]
+[debug] [2025-11-25T13:38:47.303Z] > authorizing via signed-in user (akio.jcoltd@gmail.com)
+[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
+[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
+[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
+[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
+[debug] [2025-11-25T22:20:07.478Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/userinfo.email"]
+[debug] [2025-11-25T22:20:07.479Z] > authorizing via signed-in user (akio.jcoltd@gmail.com)
+[debug] [2025-11-25T22:20:07.498Z] Checked if tokens are valid: false, expires at: 1764078934375
+[debug] [2025-11-25T22:20:07.499Z] Checked if tokens are valid: false, expires at: 1764078934375
+[debug] [2025-11-25T22:20:07.500Z] > refreshing access token with scopes: []
+[debug] [2025-11-25T22:20:07.505Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2025-11-25T22:20:07.505Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2025-11-25T22:20:07.567Z] Checked if tokens are valid: false, expires at: 1764078934375
+[debug] [2025-11-25T22:20:07.567Z] Checked if tokens are valid: false, expires at: 1764078934375
+[debug] [2025-11-25T22:20:07.568Z] > refreshing access token with scopes: []
+[debug] [2025-11-25T22:20:07.569Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2025-11-25T22:20:07.569Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2025-11-25T22:20:07.573Z] Checked if tokens are valid: false, expires at: 1764078934375
+[debug] [2025-11-25T22:20:07.574Z] Checked if tokens are valid: false, expires at: 1764078934375
+[debug] [2025-11-25T22:20:07.574Z] > refreshing access token with scopes: []
+[debug] [2025-11-25T22:20:07.575Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2025-11-25T22:20:07.575Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2025-11-25T22:20:07.593Z] Checked if tokens are valid: false, expires at: 1764078934375
+[debug] [2025-11-25T22:20:07.594Z] Checked if tokens are valid: false, expires at: 1764078934375
+[debug] [2025-11-25T22:20:07.594Z] > refreshing access token with scopes: []
+[debug] [2025-11-25T22:20:07.594Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2025-11-25T22:20:07.595Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2025-11-25T22:20:07.597Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/userinfo.email"]
+[debug] [2025-11-25T22:20:07.598Z] > authorizing via signed-in user (akio.jcoltd@gmail.com)
+[debug] [2025-11-25T22:20:07.602Z] Checked if tokens are valid: false, expires at: 1764078934375
+[debug] [2025-11-25T22:20:07.602Z] Checked if tokens are valid: false, expires at: 1764078934375
+[debug] [2025-11-25T22:20:07.602Z] > refreshing access token with scopes: []
+[debug] [2025-11-25T22:20:07.603Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2025-11-25T22:20:07.603Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2025-11-25T22:20:07.606Z] Checked if tokens are valid: false, expires at: 1764078934375
+[debug] [2025-11-25T22:20:07.606Z] Checked if tokens are valid: false, expires at: 1764078934375
+[debug] [2025-11-25T22:20:07.607Z] > refreshing access token with scopes: []
+[debug] [2025-11-25T22:20:07.607Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2025-11-25T22:20:07.607Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2025-11-25T22:20:07.610Z] Checked if tokens are valid: false, expires at: 1764078934375
+[debug] [2025-11-25T22:20:07.610Z] Checked if tokens are valid: false, expires at: 1764078934375
+[debug] [2025-11-25T22:20:07.610Z] > refreshing access token with scopes: []
+[debug] [2025-11-25T22:20:07.611Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2025-11-25T22:20:07.611Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2025-11-25T22:20:07.619Z] Checked if tokens are valid: false, expires at: 1764078934375
+[debug] [2025-11-25T22:20:07.620Z] Checked if tokens are valid: false, expires at: 1764078934375
+[debug] [2025-11-25T22:20:07.620Z] > refreshing access token with scopes: []
+[debug] [2025-11-25T22:20:07.621Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2025-11-25T22:20:07.621Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2025-11-25T22:20:07.796Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2025-11-25T22:20:07.796Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2025-11-25T22:20:07.831Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/rentacar-system/services/firebasedataconnect.googleapis.com [none]
+[debug] [2025-11-25T22:20:07.831Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/rentacar-system/services/firebasedataconnect.googleapis.com x-goog-quota-user=projects/rentacar-system
+[debug] [2025-11-25T22:20:07.861Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2025-11-25T22:20:07.861Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2025-11-25T22:20:07.882Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/rentacar-system/services/cloudfunctions.googleapis.com [none]
+[debug] [2025-11-25T22:20:07.882Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/rentacar-system/services/cloudfunctions.googleapis.com x-goog-quota-user=projects/rentacar-system
+[debug] [2025-11-25T22:20:07.888Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2025-11-25T22:20:07.888Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2025-11-25T22:20:07.900Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/rentacar-system/services/firebaseio.com [none]
+[debug] [2025-11-25T22:20:07.901Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/rentacar-system/services/firebaseio.com x-goog-quota-user=projects/rentacar-system
+[debug] [2025-11-25T22:20:07.952Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2025-11-25T22:20:07.953Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2025-11-25T22:20:07.974Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/rentacar-system/services/firebaseio.com [none]
+[debug] [2025-11-25T22:20:07.974Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/rentacar-system/services/firebaseio.com x-goog-quota-user=projects/rentacar-system
+[debug] [2025-11-25T22:20:07.986Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2025-11-25T22:20:07.986Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2025-11-25T22:20:08.004Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/rentacar-system/services/firestore.googleapis.com [none]
+[debug] [2025-11-25T22:20:08.004Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/rentacar-system/services/firestore.googleapis.com x-goog-quota-user=projects/rentacar-system
+[debug] [2025-11-25T22:20:08.018Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2025-11-25T22:20:08.019Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2025-11-25T22:20:08.039Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/rentacar-system/services/firebasedataconnect.googleapis.com [none]
+[debug] [2025-11-25T22:20:08.039Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/rentacar-system/services/firebasedataconnect.googleapis.com x-goog-quota-user=projects/rentacar-system
+[debug] [2025-11-25T22:20:08.064Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2025-11-25T22:20:08.064Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2025-11-25T22:20:08.087Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/rentacar-system/services/cloudfunctions.googleapis.com [none]
+[debug] [2025-11-25T22:20:08.088Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/rentacar-system/services/cloudfunctions.googleapis.com x-goog-quota-user=projects/rentacar-system
+[debug] [2025-11-25T22:20:08.109Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2025-11-25T22:20:08.109Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2025-11-25T22:20:08.127Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/rentacar-system/services/firestore.googleapis.com [none]
+[debug] [2025-11-25T22:20:08.127Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/rentacar-system/services/firestore.googleapis.com x-goog-quota-user=projects/rentacar-system
+[debug] [2025-11-25T22:20:08.957Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/rentacar-system/services/firebaseio.com 403
+[debug] [2025-11-25T22:20:08.958Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/rentacar-system/services/firebaseio.com [omitted]
+[debug] [2025-11-25T22:20:08.986Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/rentacar-system/services/firebasedataconnect.googleapis.com 200
+[debug] [2025-11-25T22:20:08.986Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/rentacar-system/services/firebasedataconnect.googleapis.com [omitted]
+[debug] [2025-11-25T22:20:09.002Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/rentacar-system/services/cloudfunctions.googleapis.com 200
+[debug] [2025-11-25T22:20:09.002Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/rentacar-system/services/cloudfunctions.googleapis.com [omitted]
+[debug] [2025-11-25T22:20:09.057Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/rentacar-system/services/firebaseio.com 403
+[debug] [2025-11-25T22:20:09.057Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/rentacar-system/services/firebaseio.com [omitted]
+[debug] [2025-11-25T22:20:09.105Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/rentacar-system/services/firestore.googleapis.com 200
+[debug] [2025-11-25T22:20:09.108Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/rentacar-system/services/firestore.googleapis.com [omitted]
+[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
+[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
+[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
+[debug] [2025-11-25T22:20:09.123Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/userinfo.email"]
+[debug] [2025-11-25T22:20:09.123Z] > authorizing via signed-in user (akio.jcoltd@gmail.com)
+[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
+[debug] [2025-11-25T22:20:09.128Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/userinfo.email"]
+[debug] [2025-11-25T22:20:09.128Z] > authorizing via signed-in user (akio.jcoltd@gmail.com)
+[debug] [2025-11-25T22:20:09.141Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/rentacar-system/services/firebasedataconnect.googleapis.com 200
+[debug] [2025-11-25T22:20:09.141Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/rentacar-system/services/firebasedataconnect.googleapis.com [omitted]
+[debug] [2025-11-25T22:20:09.163Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/rentacar-system/services/firestore.googleapis.com 200
+[debug] [2025-11-25T22:20:09.165Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/rentacar-system/services/firestore.googleapis.com [omitted]
+[debug] [2025-11-25T22:20:09.166Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/rentacar-system/services/cloudfunctions.googleapis.com 200
+[debug] [2025-11-25T22:20:09.167Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/rentacar-system/services/cloudfunctions.googleapis.com [omitted]
+[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
+[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
+[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
+[debug] [2025-11-25T22:20:09.209Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/userinfo.email"]
+[debug] [2025-11-25T22:20:09.209Z] > authorizing via signed-in user (akio.jcoltd@gmail.com)
+[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
+[debug] [2025-11-25T22:20:09.212Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/userinfo.email"]
+[debug] [2025-11-25T22:20:09.212Z] > authorizing via signed-in user (akio.jcoltd@gmail.com)
+[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
+[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
+[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
+[debug] [2025-11-25T22:20:09.221Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/userinfo.email"]
+[debug] [2025-11-25T22:20:09.221Z] > authorizing via signed-in user (akio.jcoltd@gmail.com)
+[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
+[debug] [2025-11-25T22:20:09.223Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/userinfo.email"]
+[debug] [2025-11-25T22:20:09.224Z] > authorizing via signed-in user (akio.jcoltd@gmail.com)
+[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
+[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
+[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
+[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
+[debug] [2025-11-25T23:00:04.585Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/userinfo.email"]
+[debug] [2025-11-25T23:00:04.586Z] > authorizing via signed-in user (akio.jcoltd@gmail.com)
+[debug] [2025-11-25T23:00:04.607Z] Checked if tokens are valid: true, expires at: 1764112807110
+[debug] [2025-11-25T23:00:04.608Z] Checked if tokens are valid: true, expires at: 1764112807110
+[debug] [2025-11-25T23:00:04.609Z] Checked if tokens are valid: true, expires at: 1764112807110
+[debug] [2025-11-25T23:00:04.610Z] Checked if tokens are valid: true, expires at: 1764112807110
+[debug] [2025-11-25T23:00:04.611Z] Checked if tokens are valid: true, expires at: 1764112807110
+[debug] [2025-11-25T23:00:04.612Z] Checked if tokens are valid: true, expires at: 1764112807110
+[debug] [2025-11-25T23:00:04.626Z] Checked if tokens are valid: true, expires at: 1764112807110
+[debug] [2025-11-25T23:00:04.626Z] Checked if tokens are valid: true, expires at: 1764112807110
+[debug] [2025-11-25T23:00:04.627Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/userinfo.email"]
+[debug] [2025-11-25T23:00:04.627Z] > authorizing via signed-in user (akio.jcoltd@gmail.com)
+[debug] [2025-11-25T23:00:04.630Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/rentacar-system/services/firestore.googleapis.com [none]
+[debug] [2025-11-25T23:00:04.631Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/rentacar-system/services/firestore.googleapis.com x-goog-quota-user=projects/rentacar-system
+[debug] [2025-11-25T23:00:04.691Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/rentacar-system/services/firebasedataconnect.googleapis.com [none]
+[debug] [2025-11-25T23:00:04.692Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/rentacar-system/services/firebasedataconnect.googleapis.com x-goog-quota-user=projects/rentacar-system
+[debug] [2025-11-25T23:00:04.695Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/rentacar-system/services/cloudfunctions.googleapis.com [none]
+[debug] [2025-11-25T23:00:04.695Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/rentacar-system/services/cloudfunctions.googleapis.com x-goog-quota-user=projects/rentacar-system
+[debug] [2025-11-25T23:00:04.698Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/rentacar-system/services/firebaseio.com [none]
+[debug] [2025-11-25T23:00:04.698Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/rentacar-system/services/firebaseio.com x-goog-quota-user=projects/rentacar-system
+[debug] [2025-11-25T23:00:04.701Z] Checked if tokens are valid: true, expires at: 1764112807110
+[debug] [2025-11-25T23:00:04.701Z] Checked if tokens are valid: true, expires at: 1764112807110
+[debug] [2025-11-25T23:00:04.702Z] Checked if tokens are valid: true, expires at: 1764112807110
+[debug] [2025-11-25T23:00:04.702Z] Checked if tokens are valid: true, expires at: 1764112807110
+[debug] [2025-11-25T23:00:04.703Z] Checked if tokens are valid: true, expires at: 1764112807110
+[debug] [2025-11-25T23:00:04.703Z] Checked if tokens are valid: true, expires at: 1764112807110
+[debug] [2025-11-25T23:00:04.707Z] Checked if tokens are valid: true, expires at: 1764112807110
+[debug] [2025-11-25T23:00:04.708Z] Checked if tokens are valid: true, expires at: 1764112807110
+[debug] [2025-11-25T23:00:04.708Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/rentacar-system/services/firestore.googleapis.com [none]
+[debug] [2025-11-25T23:00:04.709Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/rentacar-system/services/firestore.googleapis.com x-goog-quota-user=projects/rentacar-system
+[debug] [2025-11-25T23:00:04.712Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/rentacar-system/services/firebasedataconnect.googleapis.com [none]
+[debug] [2025-11-25T23:00:04.712Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/rentacar-system/services/firebasedataconnect.googleapis.com x-goog-quota-user=projects/rentacar-system
+[debug] [2025-11-25T23:00:04.716Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/rentacar-system/services/cloudfunctions.googleapis.com [none]
+[debug] [2025-11-25T23:00:04.717Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/rentacar-system/services/cloudfunctions.googleapis.com x-goog-quota-user=projects/rentacar-system
+[debug] [2025-11-25T23:00:04.720Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/rentacar-system/services/firebaseio.com [none]
+[debug] [2025-11-25T23:00:04.720Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/rentacar-system/services/firebaseio.com x-goog-quota-user=projects/rentacar-system
+[debug] [2025-11-25T23:00:05.757Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/rentacar-system/services/firebaseio.com 403
+[debug] [2025-11-25T23:00:05.757Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/rentacar-system/services/firebaseio.com [omitted]
+[debug] [2025-11-25T23:00:05.795Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/rentacar-system/services/cloudfunctions.googleapis.com 200
+[debug] [2025-11-25T23:00:05.795Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/rentacar-system/services/cloudfunctions.googleapis.com [omitted]
+[debug] [2025-11-25T23:00:05.819Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/rentacar-system/services/firebaseio.com 403
+[debug] [2025-11-25T23:00:05.819Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/rentacar-system/services/firebaseio.com [omitted]
+[debug] [2025-11-25T23:00:05.836Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/rentacar-system/services/cloudfunctions.googleapis.com 200
+[debug] [2025-11-25T23:00:05.837Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/rentacar-system/services/cloudfunctions.googleapis.com [omitted]
+[debug] [2025-11-25T23:00:05.840Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/rentacar-system/services/firebasedataconnect.googleapis.com 200
+[debug] [2025-11-25T23:00:05.842Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/rentacar-system/services/firebasedataconnect.googleapis.com [omitted]
+[debug] [2025-11-25T23:00:05.852Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/rentacar-system/services/firestore.googleapis.com 200
+[debug] [2025-11-25T23:00:05.855Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/rentacar-system/services/firestore.googleapis.com [omitted]
+[debug] [2025-11-25T23:00:05.870Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/rentacar-system/services/firebasedataconnect.googleapis.com 200
+[debug] [2025-11-25T23:00:05.870Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/rentacar-system/services/firebasedataconnect.googleapis.com [omitted]
+[debug] [2025-11-25T23:00:05.901Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/rentacar-system/services/firestore.googleapis.com 200
+[debug] [2025-11-25T23:00:05.901Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/rentacar-system/services/firestore.googleapis.com [omitted]
+[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
+[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
+[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
+[debug] [2025-11-25T23:00:05.912Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/userinfo.email"]
+[debug] [2025-11-25T23:00:05.912Z] > authorizing via signed-in user (akio.jcoltd@gmail.com)
+[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
+[debug] [2025-11-25T23:00:05.917Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/userinfo.email"]
+[debug] [2025-11-25T23:00:05.917Z] > authorizing via signed-in user (akio.jcoltd@gmail.com)
+[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
+[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
+[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
+[debug] [2025-11-25T23:00:05.948Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/userinfo.email"]
+[debug] [2025-11-25T23:00:05.949Z] > authorizing via signed-in user (akio.jcoltd@gmail.com)
+[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
+[debug] [2025-11-25T23:00:05.953Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/userinfo.email"]
+[debug] [2025-11-25T23:00:05.953Z] > authorizing via signed-in user (akio.jcoltd@gmail.com)
+[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
+[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
+[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
+[debug] [2025-11-25T23:00:05.960Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/userinfo.email"]
+[debug] [2025-11-25T23:00:05.960Z] > authorizing via signed-in user (akio.jcoltd@gmail.com)
+[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
+[debug] [2025-11-25T23:00:05.962Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/userinfo.email"]
+[debug] [2025-11-25T23:00:05.962Z] > authorizing via signed-in user (akio.jcoltd@gmail.com)
