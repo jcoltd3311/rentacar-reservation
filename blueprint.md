@@ -1,27 +1,67 @@
-# Project Blueprint
 
-## Overview
+# レンタカー対面受付の電子化システム
 
-This project is a car rental application. Users can browse available cars, select a car, and book it for a specific period.
+## 概要
 
-## Features & Design
+このアプリケーションは、従来の紙ベースで行われていたレンタカーの対面受付業務を電子化し、顧客体験の向上と業務効率化を実現するものです。予約から車両の受け取りまで、一貫したデジタル体験を提供します。
 
-### Implemented
+## 実装された機能とデザイン
 
-*   **Car Selection:**
-    *   Displays a list of available cars with details like make, model, year, and price.
-    *   Users can select a car to proceed with the booking.
-*   **Booking Process:**
-    *   A booking page where users can confirm the selected car and enter their details.
-    *   A confirmation page that appears after a successful booking.
-*   **Coupon Input:**
-    *   A coupon code input field on the booking page.
-*   **Styling:**
-    *   Basic styling for car listings, booking form, and confirmation page.
-    *   The application has a clean and modern design.
-    *   The booking page includes a coupon input field with a button.
+- **Next.jsのApp Routerを利用したファイルベースのルーティング**
+- **モダンで直感的なUIデザイン**
+  - 各画面は、ユーザーが次に行うべき操作を容易に理解できるよう、シンプルかつ明確にデザインされています。
+  - モバイルデバイスでも快適に操作できるよう、レスポンシブデザインを考慮しています。
+- **段階的な情報入力**
+  - ユーザーの負担を軽減するため、受付や予約のプロセスを複数のステップに分割しています。
 
-### Current Plan
+---
 
-*   Set up Firebase for this project.
+## 機能ブループリント
+
+### **予約フロー**
+
+1.  **車両検索ページ (`/search`)**
+    - 利用日時、場所、車両タイプなどで希望の車両を検索する機能を提供します。
+    - 検索結果として、利用可能な車両のリストを写真付きで表示します。
+
+2.  **予約詳細・見積もりページ (`/booking/estimate/[carId]`)**
+    - 選択した車両の詳細情報（料金、スペック、装備など）を表示します。
+    - 予約期間に基づいた料金の見積もりを提示します。
+
+3.  **ログイン・会員登録ページ (`/booking/login`, `/booking/register`)**
+    - 既存ユーザーはログイン、新規ユーザーは会員登録を行います。
+    - ソーシャルログイン（Google, etc.）にも対応し、手軽に登録・ログインできる選択肢を提供します。
+
+4.  **支払いページ (`/booking/payment`)**
+    - クレジットカード情報の入力フォームを設置し、安全な決済処理を実現します。
+    - 支払い方法の選択肢（後払い、ポイント利用など）も検討します。
+
+5.  **予約完了ページ (`/booking/confirmed`)**
+    - 予約が正常に完了したことを通知し、予約番号や詳細情報を表示します。
+    - 予約内容の確認メールを自動送信する機能も将来的には追加します。
+
+### **対面受付フロー**
+
+1.  **開始画面 (`/`)**
+    - 受付の開始を宣言するシンプルな画面です。
+2.  **本人確認書類選択画面 (`/reception/document-selection`)**
+    - 運転免許証またはその他の本人確認書類かを選択します。
+3.  **免許証スキャン画面 (`/reception/scan`)**
+    - デバイスのカメラを使用して運転免許証をスキャンするインターフェースを提供します。
+4.  **重要事項説明画面 (`/reception/guide`)**
+    - レンタカーの利用に関する重要事項をビデオまたはテキストで説明します。
+5.  **契約内容確認画面 (`/reception/confirm`)**
+    - これまでに入力・選択された情報をまとめて表示し、最終確認を促します。
+6.  **電子署名入力画面 (`/reception/signature`)**
+    - `<canvas>` 要素を使用して、ユーザーが契約内容に電子署名できるようにします。
+7.  **オプション選択画面 (`/reception/options`)**
+    - チャイルドシートやカーナビなどの追加オプションを選択できます。
+8.  **NOC加入選択画面 (`/reception/noc`)**
+    - NOC（ノンオペレーションチャージ）補償への加入を選択できます。
+9.  **車両変更提案画面 (`/reception/vehicle-change`)**
+    - 上位クラスの車両へのアップグレードを提案します。
+10. **最終確認画面 (`/reception/final-confirm`)**
+    - すべての選択項目を含んだ最終的な契約内容を表示し、支払いに進む前の最終同意を得ます。
+11. **完了画面 (`/reception/complete`)**
+    - すべての手続きが完了したことをユーザーに伝え、感謝の意を示します。
 

@@ -6,6 +6,7 @@ export const dummyCars = [
     model: 'Camry',
     type: 'sedan',
     store: 'store1',
+    price: 8000, 
     availability: [
       {
         date: '2024-08-10',
@@ -23,6 +24,7 @@ export const dummyCars = [
     model: 'CR-V',
     type: 'suv',
     store: 'store2',
+    price: 10000,
     availability: [
       {
         date: '2024-08-12',
@@ -36,6 +38,7 @@ export const dummyCars = [
     model: 'F-150',
     type: 'truck',
     store: 'store1',
+    price: 12000,
     availability: [
       {
         date: '2024-08-10',
@@ -43,4 +46,10 @@ export const dummyCars = [
       },
     ],
   },
+];
+
+export const dummyOptions = [
+  { id: 1, name: 'チャイルドシート', price: 1000 },
+  { id: 2, name: '追加の保険', price: 2000 },
+  { id: 3, name: 'カーナビ', price: 500 },
 ];

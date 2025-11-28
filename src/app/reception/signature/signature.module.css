@@ -1,0 +1,59 @@
+
+.container {
+    padding: 2rem;
+    background-color: #f9f9f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+}
+
+.signatureBox {
+    background: #fff;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+.title {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.instructions {
+    margin-bottom: 1.5rem;
+    font-size: 1.1rem;
+    color: #666;
+}
+
+.canvas {
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    cursor: crosshair;
+}
+
+.actions {
+    margin-top: 1.5rem;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.clearButton, .completeButton {
+    padding: 0.8rem 1.5rem;
+    font-size: 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+    border: none;
+}
+
+.clearButton {
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+.completeButton {
+    background-color: #28a745;
+    color: white;
+}

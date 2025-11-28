@@ -1,0 +1,65 @@
+
+.container {
+    padding: 2rem;
+    background-color: #f9f9f9;
+    min-height: 80vh;
+}
+
+.checkContainer {
+    max-width: 800px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+.title {
+    font-size: 2rem;
+    color: #333;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.instructions {
+    font-size: 1.1rem;
+    color: #666;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.canvasContainer {
+    position: relative;
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    cursor: crosshair;
+}
+
+.carImage {
+    width: 100%;
+    height: auto;
+}
+
+.scratchMark {
+    position: absolute;
+    color: red;
+    font-size: 20px;
+    font-weight: bold;
+    pointer-events: none; /* マーク自身はクリックイベントを拾わないように */
+}
+
+.actions {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.nextButton {
+    padding: 1rem 2rem;
+    font-size: 1.2rem;
+    color: #fff;
+    background-color: #0070f3;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}

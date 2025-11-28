@@ -1,0 +1,70 @@
+
+.container {
+    padding: 2rem;
+    background-color: #f9f9f9;
+    min-height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.scanBox {
+    max-width: 600px;
+    width: 100%;
+    margin: 0 auto;
+    background: #fff;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+.title {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 1rem;
+}
+
+.instructions {
+    font-size: 1.1rem;
+    color: #666;
+    margin-bottom: 2rem;
+}
+
+.fileInput {
+    display: block;
+    width: 100%;
+    margin-bottom: 2rem;
+    font-size: 1rem;
+}
+
+.previewContainer {
+    margin-bottom: 2rem;
+    border: 2px dashed #ccc;
+    padding: 1rem;
+}
+
+.previewImage {
+    max-width: 100%;
+    height: auto;
+}
+
+.actions {
+    text-align: center;
+}
+
+.nextButton {
+    padding: 1rem 2rem;
+    font-size: 1.2rem;
+    color: #fff;
+    background-color: #0070f3;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.nextButton:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}

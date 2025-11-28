@@ -1,0 +1,79 @@
+
+.container {
+    padding: 20px;
+    max-width: 800px;
+    margin: 40px auto;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.title {
+    text-align: center;
+    margin-bottom: 40px;
+    color: #2c3e50;
+    font-size: 2.5rem;
+}
+
+.guideSection {
+    margin-bottom: 30px;
+    padding: 25px;
+    background-color: #fff;
+    border-left: 5px solid #007bff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+.sectionTitle {
+    color: #34495e;
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+}
+
+.guideSection p {
+    line-height: 1.8;
+    color: #555;
+    font-size: 1.1rem;
+}
+
+.highlight {
+    color: #e74c3c;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.priceList, .banList {
+    list-style: none;
+    padding-left: 0;
+    margin-top: 15px;
+}
+
+.priceList li, .banList li {
+    padding: 10px;
+    background-color: #ecf0f1;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    font-size: 1.1rem;
+}
+
+.nextButton {
+    display: block;
+    width: 100%;
+    padding: 15px;
+    margin-top: 40px;
+    background-color: #27ae60;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.3rem;
+    font-weight: bold;
+    text-align: center;
+    transition: background-color 0.3s ease;
+}
+
+.nextButton:hover {
+    background-color: #2ecc71;
+}

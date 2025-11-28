@@ -1,49 +1,87 @@
 
-'use client'
+"use client";
+import React, { useState } from "react";
+import styles from "./search.module.css";
 
-import { useSearchParams, useRouter } from 'next/navigation';
-import styles from './search.module.css';
-import { dummyCars } from '@/lib/dummyData';
+const Search = ({ onSearch }) => {
+  const [pickupLocation, setPickupLocation] = useState("");
+  const [returnLocation, setReturnLocation] = useState("");
+  const [pickupDateTime, setPickupDateTime] = useState("");
+  const [returnDateTime, setReturnDateTime] = useState("");
+  const [carType, setCarType] = useState("");
 
-export default function Search() {
-  const router = useRouter();
-  const searchParams = useSearchParams();
-  const carType = searchParams.get('carType');
-  const pickupDate = searchParams.get('pickupDate');
-  const returnDate = searchParams.get('returnDate');
-  const store = searchParams.get('store');
-
-  const availableCars = dummyCars.filter(car => {
-    if (carType && car.type !== carType) {
-      return false;
-    }
-    if (store && car.store !== store) {
-      return false;
-    }
-    return true;
-  });
-
-  const handleBookNow = (carId) => {
-    router.push(`/booking/${carId}`);
+  const handleSearch = (e) => {
+    e.preventDefault();
+    onSearch({
+      pickupLocation,
+      returnLocation,
+      pickupDateTime,
+      returnDateTime,
+      carType,
+    });
   };
 
   return (
-    <div className={styles.container}>
-      <h1>利用可能な車両</h1>
-      <div className={styles.carList}>
-        {availableCars.length > 0 ? (
-          availableCars.map(car => (
-            <div key={car.id} className={styles.carItem}>
-              <h2>{car.make} {car.model}</h2>
-              <p>タイプ: {car.type}</p>
-              <p>店舗: {car.store}</p>
-              <button onClick={() => handleBookNow(car.id)} className={styles.bookButton}>今すぐ予約</button>
-            </div>
-          ))
-        ) : (
-          <p>選択した条件で利用可能な車両はありません。</p>
-        )}
-      </div>
+    <div className={styles.searchContainer}>
+      <h1 className={styles.title}>お探しの車を見つけよう</h1>
+      <form onSubmit={handleSearch} className={styles.searchForm}>
+        <div className={styles.inputGroup}>
+          <label htmlFor="pickup-location">貸出場所</label>
+          <input
+            type="text"
+            id="pickup-location"
+            value={pickupLocation}
+            onChange={(e) => setPickupLocation(e.target.value)}
+            placeholder="例: store1"
+          />
+        </div>
+        <div className={styles.inputGroup}>
+          <label htmlFor="return-location">返却場所</label>
+          <input
+            type="text"
+            id="return-location"
+            value={returnLocation}
+            onChange={(e) => setReturnLocation(e.target.value)}
+            placeholder="例: store2"
+          />
+        </div>
+        <div className={styles.inputGroup}>
+          <label htmlFor="pickup-datetime">貸出日時</label>
+          <input
+            type="datetime-local"
+            id="pickup-datetime"
+            value={pickupDateTime}
+            onChange={(e) => setPickupDateTime(e.target.value)}
+          />
+        </div>
+        <div className={styles.inputGroup}>
+          <label htmlFor="return-datetime">返却日時</label>
+          <input
+            type="datetime-local"
+            id="return-datetime"
+            value={returnDateTime}
+            onChange={(e) => setReturnDateTime(e.target.value)}
+          />
+        </div>
+        <div className={styles.inputGroup}>
+          <label htmlFor="car-type">車両タイプ</label>
+          <select
+            id="car-type"
+            value={carType}
+            onChange={(e) => setCarType(e.target.value)}
+          >
+            <option value="">すべて</option>
+            <option value="sedan">セダン</option>
+            <option value="suv">SUV</option>
+            <option value="truck">トラック</option>
+          </select>
+        </div>
+        <button type="submit" className={styles.searchButton}>
+          検索
+        </button>
+      </form>
     </div>
   );
-}
+};
+
+export default Search;

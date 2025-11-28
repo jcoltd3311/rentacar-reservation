@@ -1,0 +1,126 @@
+
+.container {
+    padding: 20px;
+    max-width: 800px;
+    margin: 40px auto;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.title {
+    text-align: center;
+    margin-bottom: 40px;
+    color: #2c3e50;
+    font-size: 2.2rem;
+}
+
+.section {
+    margin-bottom: 25px;
+    padding: 25px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+.sectionTitle {
+    color: #007bff;
+    font-size: 1.6rem;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #e0e0e0;
+    padding-bottom: 10px;
+}
+
+.driverList, .optionList {
+    list-style: none;
+    padding: 0;
+}
+
+.driverList li {
+    display: grid;
+    grid-template-columns: 120px 1fr;
+    align-items: center;
+    padding: 15px;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+.driverList li:last-child {
+    border-bottom: none;
+}
+
+.driverRole {
+    font-weight: bold;
+    color: #3498db;
+}
+
+.driverName {
+    font-size: 1.1rem;
+}
+
+.licenseNumber {
+    font-size: 0.9rem;
+    color: #7f8c8d;
+    grid-column: 2;
+}
+
+.optionList li {
+    font-size: 1.1rem;
+    padding: 8px 0;
+}
+
+.costSection {
+    background-color: #fdfdfd;
+}
+
+.costGrid {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-between;
+    gap: 15px;
+    font-size: 1.1rem;
+}
+
+.costGrid p {
+    margin: 0;
+}
+
+.totalLabel {
+    font-weight: bold;
+    font-size: 1.3rem !important;
+    color: #2c3e50;
+    margin-top: 15px;
+    padding-top: 15px;
+    border-top: 2px solid #e0e0e0;
+}
+
+.totalAmount {
+    font-weight: bold;
+    font-size: 1.4rem !important;
+    color: #e74c3c;
+    text-align: right;
+    margin-top: 15px;
+    padding-top: 15px;
+    border-top: 2px solid #e0e0e0;
+
+}
+
+.nextButton {
+    display: block;
+    width: 100%;
+    padding: 15px;
+    margin-top: 40px;
+    background-color: #27ae60;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.3rem;
+    font-weight: bold;
+    text-align: center;
+    transition: background-color 0.3s ease;
+}
+
+.nextButton:hover {
+    background-color: #2ecc71;
+}
+
