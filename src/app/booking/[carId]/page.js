@@ -6,7 +6,7 @@ import { useSearchParams, useRouter, useParams } from 'next/navigation';
 import styles from '../booking.module.css';
 import Login from '../Login';
 import Register from '../Register';
-import { dummyCars } from '@/lib/dummyData';
+import { dummyCars } from '../../../lib/dummyData';
 
 export default function BookingPage() {
   const router = useRouter();

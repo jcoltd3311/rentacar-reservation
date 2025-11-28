@@ -1,5 +1,3 @@
-run:
-  web: node_modules/.bin/next start
-env:
-  - variable: DB_PASSWORD
-    secret: DB_PASSWORD
+runtime: nodejs20
+build: npm run build
+run: npm start
