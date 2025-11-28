@@ -1,36 +1,43 @@
 
-"use client";
-import React, { useState } from "react";
-import Search from "./Search";
-import SearchResults from "./SearchResults";
-import { dummyCars } from "../../lib/dummyData";
-import styles from "./search.module.css";
+import { db } from "@/lib/firebaseAdmin";
+import SearchClient from "./SearchClient";
 
-const SearchPage = () => {
-  const [searchResults, setSearchResults] = useState(dummyCars);
+async function getCars() {
+  try {
+    const carsSnapshot = await db.collection("cars").orderBy("price", "asc").get();
+    const cars = carsSnapshot.docs.map((doc) => ({ id: doc.id, ...doc.data() }));
+    return cars;
+  } catch (e) {
+    console.error("Firestoreからの車両データ取得エラー:", e);
+    // エラーが発生した場合は空の配列を返し、クライアント側でエラーメッセージを表示
+    throw new Error("車両データの読み込みに失敗しました。時間をおいて再度お試しください。");
+  }
+}
 
-  const handleSearch = (searchParams) => {
-    const { pickupLocation, carType } = searchParams;
+export default async function SearchPage() {
+  let initialCars = [];
+  let error = null;
 
-    const filteredResults = dummyCars.filter((car) => {
-      const isLocationMatch = pickupLocation ? car.store.toLowerCase().includes(pickupLocation.toLowerCase()) : true;
-      const isTypeMatch = carType ? car.type === carType : true;
-      
-      // 日時のフィルタリングは、ダミーデータに具体的な時間情報がないため、ここでは割愛します。
-      // 実際のアプリケーションでは、予約状況と日時を考慮した複雑なロジックが必要になります。
-
-      return isLocationMatch && isTypeMatch;
-    });
-
-    setSearchResults(filteredResults);
-  };
+  try {
+    initialCars = await getCars();
+  } catch (e) {
+    error = e.message;
+  }
 
   return (
-    <main className={styles.main}>
-      <Search onSearch={handleSearch} />
-      <SearchResults results={searchResults} />
-    </main>
-  );
-};
+    <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+      <h1 className="text-4xl font-extrabold text-gray-900 mb-2">車両を探す</h1>
+      <p className="text-lg text-gray-600 mb-10">お好みの条件で、ぴったりの一台を見つけましょう。</p>
 
-export default SearchPage;
+      {error ? (
+        <div className="text-center text-red-500 bg-red-100 p-6 rounded-lg shadow-md">
+          <p className="font-semibold">エラーが発生しました</p>
+          <p>{error}</p>
+        </div>
+      ) : (
+        <SearchClient initialCars={initialCars} />
+      )}
+    </div>
+  );
+}
+

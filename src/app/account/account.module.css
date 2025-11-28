@@ -1,0 +1,145 @@
+.accountContainer {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 2rem 1.5rem;
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 2.5rem;
+}
+
+.title {
+    font-size: 2.5rem;
+    font-weight: 800;
+    color: #111827;
+}
+
+.subtitle {
+    font-size: 1.1rem;
+    color: #6b7280;
+    margin-top: 0.5rem;
+}
+
+.userInfo {
+    background-color: white;
+    padding: 1.5rem;
+    border-radius: 8px;
+    margin-bottom: 2.5rem;
+    font-size: 1rem;
+    color: #374151;
+}
+
+.bookingsSection {
+    /* ... */
+}
+
+.sectionTitle {
+    font-size: 1.75rem;
+    font-weight: 700;
+    color: #1f2937;
+    margin-bottom: 1.5rem;
+    border-bottom: 2px solid #e5e7eb;
+    padding-bottom: 0.5rem;
+}
+
+.statusMessage {
+    text-align: center;
+    font-size: 1.1rem;
+    color: #6b7280;
+    padding: 3rem 0;
+}
+
+.bookingsGrid {
+    display: grid;
+    gap: 1.5rem;
+}
+
+.bookingCard {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+    display: flex;
+    overflow: hidden;
+    transition: box-shadow 0.2s;
+}
+
+.bookingCard:hover {
+    box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+}
+
+.cardImage {
+    width: 180px;
+    height: 100%;
+    object-fit: cover;
+}
+
+.cardContent {
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+    width: 100%;
+    position: relative;
+}
+
+.carName {
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: #111827;
+    margin-top: 0.5rem; /* Space below badge */
+}
+
+.detailItem {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: #4b5563;
+    font-size: 0.9rem;
+}
+
+.cancelButton {
+    align-self: flex-start;
+    margin-top: 1rem;
+    background: none;
+    border: 1px solid #ef4444;
+    color: #ef4444;
+    padding: 0.4rem 0.8rem;
+    border-radius: 6px;
+    font-weight: 500;
+    font-size: 0.85rem;
+    cursor: pointer;
+    transition: background-color 0.2s, color 0.2s;
+}
+
+.cancelButton:hover {
+    background-color: #ef4444;
+    color: white;
+}
+
+/* Status Badge Styles */
+.statusBadge {
+    position: absolute;
+    top: 1.5rem;
+    right: 1.5rem;
+    padding: 0.25rem 0.75rem;
+    border-radius: 9999px;
+    font-size: 0.8rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.statusBadge.pending {
+    background-color: #fef3c7;
+    color: #92400e;
+}
+
+.statusBadge.confirmed {
+    background-color: #dcfce7;
+    color: #166534;
+}
+
+.statusBadge.cancelled {
+    background-color: #fee2e2;
+    color: #991b1b;
+}

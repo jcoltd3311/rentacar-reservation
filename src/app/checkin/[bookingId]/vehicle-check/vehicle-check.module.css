@@ -1,0 +1,228 @@
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; /* Align to top */
+    min-height: 100vh;
+    background-color: #f3f4f6;
+    padding: 3rem;
+    overflow-y: auto;
+}
+
+.checkContainer {
+    background-color: white;
+    padding: 2.5rem 3rem;
+    border-radius: 1.5rem;
+    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+    width: 100%;
+    max-width: 800px;
+    border: 1px solid #e5e7eb;
+    text-align: center;
+}
+
+.title {
+    font-size: 2.25rem;
+    font-weight: 800;
+    color: #1f2937;
+}
+
+.subtitle {
+    font-size: 1.1rem;
+    color: #4b5563;
+    margin-top: 0.5rem;
+    margin-bottom: 2rem;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.infoBox {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem 1.5rem;
+    margin-bottom: 2rem;
+    background-color: #eff6ff; /* blue-50 */
+    border: 1px solid #dbeafe; /* blue-200 */
+    border-radius: 0.75rem;
+    color: #1e40af; /* blue-800 */
+    text-align: left;
+}
+.infoBox p {
+    font-weight: 500;
+}
+
+.diagramContainer {
+    position: relative;
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    aspect-ratio: 2 / 1;
+    cursor: crosshair;
+    background-color: #f9fafb;
+    border-radius: 1rem;
+    border: 1px solid #e5e7eb;
+    overflow: hidden;
+}
+
+.scratchMarker {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.scratchMarker:hover {
+    transform: translate(-50%, -50%) scale(1.2);
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+}
+
+.existingDot {
+    background-color: #f59e0b; /* amber-500 */
+    border: 2px solid white;
+    box-shadow: 0 0 0 2px #f59e0b;
+}
+
+.newDot {
+    background-color: #ef4444; /* red-500 */
+    border: 2px solid white;
+    box-shadow: 0 0 0 2px #ef4444;
+    animation: pulse 1.5s infinite;
+}
+
+@keyframes pulse {
+    0% { box-shadow: 0 0 0 0 rgba(239, 68, 68, 0.7); }
+    70% { box-shadow: 0 0 0 10px rgba(239, 68, 68, 0); }
+    100% { box-shadow: 0 0 0 0 rgba(239, 68, 68, 0); }
+}
+
+.buttonContainer {
+    margin-top: 2.5rem;
+    display: flex;
+    justify-content: center;
+}
+
+.confirmButton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.75rem;
+    min-width: 300px;
+    padding: 1rem;
+    font-size: 1.1rem;
+    font-weight: 700;
+    border-radius: 0.75rem;
+    cursor: pointer;
+    border: none;
+    transition: background-color 0.2s;
+    background-color: #16a34a; /* green-600 */
+    color: white;
+}
+
+.confirmButton:hover {
+    background-color: #15803d; /* green-700 */
+}
+
+
+/* Modal Styles */
+.modalBackdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.modalContent {
+    background: white;
+    padding: 2rem;
+    border-radius: 1.5rem;
+    width: 90%;
+    max-width: 500px;
+    box-shadow: 0 10px 15px -3px rgba(0,0,0,0.1);
+}
+
+.modalTitle {
+    font-size: 1.75rem;
+    font-weight: 700;
+    color: #1f2937;
+    margin-bottom: 1.5rem;
+}
+
+.modalTextarea {
+    width: 100%;
+    min-height: 100px;
+    padding: 1rem;
+    font-size: 1rem;
+    border: 1px solid #d1d5db;
+    border-radius: 0.75rem;
+    margin-bottom: 1.5rem;
+}
+
+.modalUpload {
+    position: relative;
+    width: 100%;
+    height: 150px;
+    border: 2px dashed #d1d5db;
+    border-radius: 0.75rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f9fafb;
+    margin-bottom: 2rem;
+    overflow: hidden;
+}
+
+.uploadPlaceholder {
+    text-align: center;
+    color: #6b7280;
+}
+
+.imagePreview {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.fileInput {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.modalActions {
+    display: flex;
+    justify-content: flex-end;
+    gap: 1rem;
+}
+
+.cancelButton, .addButton {
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    font-weight: 600;
+    border-radius: 0.5rem;
+    border: none;
+    cursor: pointer;
+}
+
+.cancelButton {
+    background-color: #e5e7eb;
+    color: #1f2937;
+}
+
+.addButton {
+    background-color: #2563eb;
+    color: white;
+}

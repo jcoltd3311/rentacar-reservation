@@ -1,67 +1,118 @@
+# Rent-a-Car Application Blueprint
 
-# レンタカー対面受付の電子化システム
+## 1. Overview
 
-## 概要
+This document outlines the architecture, features, and development plan for a comprehensive car rental web application. The project is divided into two core modules: a self-check-in system for existing reservations and a full-featured booking and account management system.
 
-このアプリケーションは、従来の紙ベースで行われていたレンタカーの対面受付業務を電子化し、顧客体験の向上と業務効率化を実現するものです。予約から車両の受け取りまで、一貫したデジタル体験を提供します。
+## 2. Core Technologies
 
-## 実装された機能とデザイン
-
-- **Next.jsのApp Routerを利用したファイルベースのルーティング**
-- **モダンで直感的なUIデザイン**
-  - 各画面は、ユーザーが次に行うべき操作を容易に理解できるよう、シンプルかつ明確にデザインされています。
-  - モバイルデバイスでも快適に操作できるよう、レスポンシブデザインを考慮しています。
-- **段階的な情報入力**
-  - ユーザーの負担を軽減するため、受付や予約のプロセスを複数のステップに分割しています。
+- **Frontend:** Next.js (React Framework)
+- **Backend & Database:** Firebase (Firestore, Cloud Storage, Firebase Authentication)
+- **Payment Processing:** Stripe
+- **Styling:** CSS Modules, Heroicons
+- **OCR:** Tesseract.js
 
 ---
 
-## 機能ブループリント
+## 3. Module 1: Self-Check-in System (Implemented)
 
-### **予約フロー**
+This module allows users with an existing reservation to perform a fully digital check-in, enhancing operational efficiency and user convenience.
 
-1.  **車両検索ページ (`/search`)**
-    - 利用日時、場所、車両タイプなどで希望の車両を検索する機能を提供します。
-    - 検索結果として、利用可能な車両のリストを写真付きで表示します。
+### 3.1. Application Flow
 
-2.  **予約詳細・見積もりページ (`/booking/estimate/[carId]`)**
-    - 選択した車両の詳細情報（料金、スペック、装備など）を表示します。
-    - 予約期間に基づいた料金の見積もりを提示します。
+1.  **Reservation Search (`/checkin/search`)**: Users find their booking using their phone number. The page supports both English and Japanese.
+2.  **License Scan & OCR (`/checkin/[bookingId]/scan`)**: Users upload a photo of their driver's license. Text (Name, License #) is automatically extracted using OCR.
+3.  **Face Scan (`/checkin/[bookingId]/face-scan`)**: A placeholder for future facial recognition, currently implemented as a skippable step.
+4.  **Check-in Complete (`/checkin/[bookingId]/complete`)**: The user receives a confirmation message and the PIN code for the key box.
 
-3.  **ログイン・会員登録ページ (`/booking/login`, `/booking/register`)**
-    - 既存ユーザーはログイン、新規ユーザーは会員登録を行います。
-    - ソーシャルログイン（Google, etc.）にも対応し、手軽に登録・ログインできる選択肢を提供します。
+### 3.2. Core Features
 
-4.  **支払いページ (`/booking/payment`)**
-    - クレジットカード情報の入力フォームを設置し、安全な決済処理を実現します。
-    - 支払い方法の選択肢（後払い、ポイント利用など）も検討します。
+- **Internationalization (i18n):** The user-facing check-in flow is multilingual.
+- **OCR:** Automatic and client-side extraction of driver's license data.
+- **File Uploads:** Securely uploads images to Firebase Storage.
+- **Real-time Updates:** Firestore is used to manage and update the check-in status in real-time.
 
-5.  **予約完了ページ (`/booking/confirmed`)**
-    - 予約が正常に完了したことを通知し、予約番号や詳細情報を表示します。
-    - 予約内容の確認メールを自動送信する機能も将来的には追加します。
+---
 
-### **対面受付フロー**
+## 4. Module 2: Booking & Account System (Development Plan)
 
-1.  **開始画面 (`/`)**
-    - 受付の開始を宣言するシンプルな画面です。
-2.  **本人確認書類選択画面 (`/reception/document-selection`)**
-    - 運転免許証またはその他の本人確認書類かを選択します。
-3.  **免許証スキャン画面 (`/reception/scan`)**
-    - デバイスのカメラを使用して運転免許証をスキャンするインターフェースを提供します。
-4.  **重要事項説明画面 (`/reception/guide`)**
-    - レンタカーの利用に関する重要事項をビデオまたはテキストで説明します。
-5.  **契約内容確認画面 (`/reception/confirm`)**
-    - これまでに入力・選択された情報をまとめて表示し、最終確認を促します。
-6.  **電子署名入力画面 (`/reception/signature`)**
-    - `<canvas>` 要素を使用して、ユーザーが契約内容に電子署名できるようにします。
-7.  **オプション選択画面 (`/reception/options`)**
-    - チャイルドシートやカーナビなどの追加オプションを選択できます。
-8.  **NOC加入選択画面 (`/reception/noc`)**
-    - NOC（ノンオペレーションチャージ）補償への加入を選択できます。
-9.  **車両変更提案画面 (`/reception/vehicle-change`)**
-    - 上位クラスの車両へのアップグレードを提案します。
-10. **最終確認画面 (`/reception/final-confirm`)**
-    - すべての選択項目を含んだ最終的な契約内容を表示し、支払いに進む前の最終同意を得ます。
-11. **完了画面 (`/reception/complete`)**
-    - すべての手続きが完了したことをユーザーに伝え、感謝の意を示します。
+This module will expand the application to include user accounts, real-time vehicle booking, and online payments, transforming it into a complete booking platform.
 
+### Phase 1: User Authentication Foundation
+
+**Goal:** Implement a complete user sign-up and login system.
+- **Tasks:**
+    - Integrate **Firebase Authentication** for secure user management.
+    - Create UI pages: `/signup` and `/login`.
+    - Implement a global authentication context (`AuthContext`) to manage user state throughout the app.
+    - Update the main navigation to dynamically show user status (e.g., "Login" vs. "My Account").
+
+### Phase 2: Real-time Inventory & Booking Flow
+
+**Goal:** Allow users to see available cars and initiate a booking.
+- **Tasks:**
+    - Create a `cars` collection in Firestore to store vehicle details (name, images, price, availability).
+    - Develop a component on the homepage to display available cars in real-time.
+    - Build a booking page (`/booking/[carId]`) where users can select reservation dates.
+
+### Phase 3: Payment Integration (Stripe)
+
+**Goal:** Securely process payments for new bookings.
+- **Tasks:**
+    - Integrate the Stripe React SDK for the frontend.
+    - Create a Next.js API route (`/api/create-payment-intent`) to handle payment logic securely on the server.
+    - Design a final payment page where users enter card details.
+    - Upon successful payment, create a new `bookings` document in Firestore and update the car's availability.
+
+### Phase 4: User Account & History
+
+**Goal:** Provide a dedicated space for users to manage their account and view their booking history.
+- **Tasks:**
+    - Create a "My Account" page (`/account`).
+    - Display the logged-in user's profile information.
+    - Fetch and display a list of the user's past and upcoming bookings, linked via their `userId`.
+
+---
+
+## 5. Updated Firestore Data Model
+
+### `bookings` collection
+```json
+{
+  "bookingId": "auto-generated",
+  "userId": "string", // Foreign key to the `users` collection
+  "carId": "string", // Foreign key to the `cars` collection
+  "bookingStartDate": "timestamp",
+  "bookingEndDate": "timestamp",
+  "totalPrice": "number",
+  "paymentStatus": "string", // e.g., 'paid'
+  "status": "string", // e.g., 'confirmed', 'checked-in'
+  "driverName": "string",
+  "licenseNumber": "string",
+  "licenseImageUrl": "string",
+  // ... other check-in related fields
+}
+```
+
+### `users` collection
+```json
+{
+  "uid": "string", // Firebase Auth UID, used as document ID
+  "email": "string",
+  "displayName": "string",
+  "createdAt": "timestamp"
+}
+```
+
+### `cars` collection
+```json
+{
+  "carId": "string", // Document ID
+  "name": "string",
+  "brand": "string",
+  "imageUrl": "string",
+  "pricePerDay": "number",
+  "isAvailable": "boolean",
+  "features": ["string"]
+}
+```

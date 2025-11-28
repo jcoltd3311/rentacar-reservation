@@ -1,26 +1,25 @@
-import { Geist, Geist_Mono } from "next/font/google";
+import { GeistSans } from "geist/font/sans";
+import { GeistMono } from "geist/font/mono";
 import "./globals.css";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
-});
-
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
-});
+import Header from "@/components/Header";
+import Providers from "./Providers"; // 作成したProvidersをインポート
 
 export const metadata = {
-  title: "レンタカー予約アプリ",
-  description: "Next.jsで作成されたレンタカー予約アプリです",
+  title: "NextRent | 次世代のレンタカー予約体験",
+  description: "Next.jsとFirebaseで構築された、高速でモダンなレンタカー予約サイト。",
 };
 
-export default function RootLayout({ children }) {
+export default function RootLayout({ children, params }) { // paramsを受け取る
+  const { locale } = params; // localeをparamsから取得
+
   return (
-    <html lang="ja">
-      <body className={`${geistSans.variable} ${geistMono.variable}`}>
-        {children}
+    <html lang={locale} className={`${GeistSans.variable} ${GeistMono.variable}`}>
+      <body className="bg-gray-50 text-gray-800">
+        <Providers>
+          <Header />
+          <main>{children}</main>
+        </Providers>
       </body>
     </html>
   );

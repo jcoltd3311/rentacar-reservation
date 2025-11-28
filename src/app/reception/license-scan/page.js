@@ -2,6 +2,7 @@
 "use client";
 import React, { Suspense, useState } from 'react';
 import { useRouter, useSearchParams } from 'next/navigation';
+import Image from 'next/image';
 import styles from './license-scan.module.css';
 
 const LicenseScanPageContent = () => {
@@ -37,7 +38,7 @@ const LicenseScanPageContent = () => {
         <input type="file" accept="image/*" onChange={handleImageChange} className={styles.fileInput} />
         {preview && (
           <div className={styles.previewContainer}>
-            <img src={preview} alt="免許証プレビュー" className={styles.previewImage} />
+            <Image src={preview} alt="免許証プレビュー" className={styles.previewImage} width={300} height={200} />
           </div>
         )}
         <div className={styles.actions}>

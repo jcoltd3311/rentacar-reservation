@@ -2,6 +2,7 @@
 "use client";
 import React, { Suspense, useState } from 'react';
 import { useRouter, useSearchParams } from 'next/navigation';
+import Image from 'next/image';
 import styles from './vehicle-check.module.css';
 
 const VehicleCheckPageContent = () => {
@@ -30,7 +31,7 @@ const VehicleCheckPageContent = () => {
         <p className={styles.instructions}>車両のイラスト上で、キズのある箇所をクリックしてください。</p>
         <div className={styles.canvasContainer}>
           {/* ここに車両のイラストを配置 */}
-          <img src="/car-illustration.svg" alt="車両イラスト" className={styles.carImage} onClick={handleCanvasClick} />
+          <Image src="/car-illustration.svg" alt="車両イラスト" className={styles.carImage} onClick={handleCanvasClick} width={600} height={300} />
           {scratches.map(scratch => (
             <div 
               key={scratch.id} 

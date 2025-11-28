@@ -1,0 +1,50 @@
+.calendarWrapper {
+    display: flex;
+    justify-content: center;
+    overflow-x: auto; /* Allow horizontal scrolling on small screens */
+}
+
+.dateRangePicker {
+    width: 100%;
+    max-width: 560px; /* Adjust as needed */
+    font-family: inherit;
+}
+
+/* You can override default styles of react-date-range here */
+:global(.rdrCalendarWrapper) {
+    font-size: 14px;
+    width: 100%;
+}
+
+:global(.rdrMonth) {
+    width: 100%;
+}
+
+:global(.rdrDay) {
+    height: 3em;
+}
+
+:global(.rdrDay:not(.rdrDayPassive)) {
+    color: #333;
+}
+
+:global(.rdrDayDisabled) {
+    background-color: #f8f8f8;
+    color: #ccc !important;
+    text-decoration: line-through;
+}
+
+:global(.rdrStartEdge, .rdrEndEdge) {
+    background: #3b82f6 !important;
+    color: #fff !important;
+}
+
+:global(.rdrInRange) {
+    background: #dbeafe !important;
+    color: #3b82f6 !important;
+}
+
+:global(.rdrDayHovered, .rdrDayActive) {
+    border-color: #3b82f6 !important;
+}
+

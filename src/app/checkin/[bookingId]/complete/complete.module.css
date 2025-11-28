@@ -1,0 +1,143 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: calc(100vh - 80px); /* Adjust based on header height */
+    padding: 2rem 1rem;
+    background-color: #f0f4f8;
+}
+
+.loadingState, .errorState {
+    width: 100%;
+    text-align: center;
+    padding: 4rem;
+    font-size: 1.25rem;
+    color: #4b5563;
+}
+
+.completeBox {
+    width: 100%;
+    max-width: 550px;
+    background-color: white;
+    border-radius: 16px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    padding: 2.5rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.successIcon {
+    width: 4rem;
+    height: 4rem;
+    color: #10b981; /* emerald-500 */
+}
+
+.title {
+    font-size: 2.25rem; /* text-4xl */
+    font-weight: 800; /* font-extrabold */
+    color: #1f2937; /* gray-800 */
+    margin-top: 0.5rem;
+}
+
+.subtitle {
+    font-size: 1.125rem; /* text-lg */
+    color: #4b5563; /* gray-600 */
+}
+
+.pinSection {
+    background-color: #eef2ff; /* indigo-50 */
+    border: 1px solid #c7d2fe; /* indigo-200 */
+    border-radius: 12px;
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+}
+
+.pinTitle {
+    font-size: 1.25rem; /* text-xl */
+    font-weight: 700;
+    color: #3730a3; /* indigo-800 */
+}
+
+.pinCodeBox {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    background-color: white;
+    padding: 1rem 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -2px rgba(0, 0, 0, 0.1);
+}
+
+.pinCode {
+    font-size: 3rem; /* text-5xl */
+    font-weight: 900; /* font-black */
+    color: #1f2937; /* gray-800 */
+    letter-spacing: 0.2em;
+}
+
+.pinInfo {
+    font-size: 0.875rem;
+    color: #4338ca; /* indigo-700 */
+    max-width: 350px;
+    margin: 0 auto;
+}
+
+.bookingDetails {
+    text-align: left;
+    border-top: 1px solid #e5e7eb; /* gray-200 */
+    padding-top: 1.5rem;
+}
+
+.detailsTitle {
+    font-size: 1.25rem; 
+    font-weight: 600;
+    color: #374151; /* gray-700 */
+    margin-bottom: 1rem;
+}
+
+.bookingDetails ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+}
+
+.bookingDetails li {
+    font-size: 1rem;
+    color: #4b5563;
+}
+
+.bookingDetails li strong {
+    font-weight: 600;
+    color: #1f2937;
+    margin-right: 0.5rem;
+}
+
+.homeButton {
+    margin-top: 1rem;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    font-weight: 600;
+    color: #4b5563; /* gray-600 */
+    text-decoration: none;
+    transition: color 0.2s;
+}
+
+.homeButton:hover {
+    color: #1f2937; /* gray-800 */
+}

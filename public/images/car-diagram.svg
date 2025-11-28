@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400">
+  <g fill="none" stroke="#9ca3af" stroke-width="2">
+    <!-- Car body -->
+    <path d="M150 250 C 50 250, 50 150, 150 150 L 250 150 C 280 120, 350 120, 380 150 L 550 150 C 650 150, 650 250, 550 250 Z" />
+    <!-- Roof -->
+    <path d="M260 150 C 280 120, 350 120, 370 150" />
+    <!-- Windows -->
+    <path d="M270 150 L 300 150 L 300 180 L 270 180 Z" />
+    <path d="M310 150 L 360 150 L 360 180 L 310 180 Z" />
+    <!-- Hood -->
+    <path d="M150 200 L 50 200" />
+    <!-- Trunk -->
+    <path d="M550 200 L 650 200" />
+    <!-- Wheels -->
+    <circle cx="200" cy="250" r="30" />
+    <circle cx="500" cy="250" r="30" />
+    
+    <!-- Top view of car -->
+    <rect x="300" y="50" width="200" height="300" rx="20" />
+    <!-- Windshield -->
+    <rect x="320" y="60" width="160" height="50" />
+    <!-- Rear window -->
+    <rect x="320" y="290" width="160" height="50" />
+    <!-- Hood top -->
+    <rect x="320" y="120" width="160" height="80" />
+     <!-- Trunk top -->
+    <rect x="320" y="210" width="160" height="70" />
+  </g>
+  
+  <!-- Labels -->
+  <text x="10" y="20" font-family="sans-serif" font-size="14" fill="#6b7280">車両上面図</text>
+  <text x="10" y="380" font-family="sans-serif" font-size="14" fill="#6b7280">車両側面図</text>
+  
+</svg>

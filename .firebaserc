@@ -1,5 +1,7 @@
 {
-  "projects": {},
+  "projects": {
+    "default": "rentacar-system"
+  },
   "targets": {},
   "etags": {}
 }

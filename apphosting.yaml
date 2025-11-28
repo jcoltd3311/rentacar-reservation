@@ -1,3 +1,8 @@
-runtime: nodejs20
-build: npm run build
-run: npm start
+runConfig:
+  cpu: 1
+  memoryMiB: 512
+env:
+  - variable: DB_PASSWORD
+    secret: DB_PASSWORD
+  - variable: NEXT_PUBLIC_SITE_URL
+    value: "https://rentacar-reservation.web.app"

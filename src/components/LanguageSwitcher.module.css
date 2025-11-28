@@ -1,0 +1,39 @@
+/* src/components/LanguageSwitcher.module.css */
+
+.switcherContainer {
+    display: flex;
+    align-items: center;
+    padding: 0.5rem 1rem;
+    background-color: #fff;
+    border-radius: 0.5rem;
+    border: 1px solid #e5e7eb;
+    box-shadow: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+}
+
+.switcherContainer button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 0.875rem; /* 14px */
+    padding: 0.25rem 0.5rem;
+    transition: color 0.2s ease-in-out;
+}
+
+.active {
+    color: #1d4ed8; /* Indigo 700 */
+    font-weight: 600;
+}
+
+.inactive {
+    color: #4b5563; /* Gray 600 */
+    font-weight: 400;
+}
+
+.inactive:hover {
+    color: #111827; /* Gray 900 */
+}
+
+.separator {
+    color: #d1d5db; /* Gray 300 */
+    margin: 0 0.5rem;
+}
