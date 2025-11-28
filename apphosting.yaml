@@ -1,6 +1,5 @@
-
 run:
   web: node_modules/.bin/next start
 env:
-  DB_PASSWORD:
+  - variable: DB_PASSWORD
     secret: DB_PASSWORD
