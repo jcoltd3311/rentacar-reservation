@@ -1,0 +1,66 @@
+
+.container { padding: 2rem; }
+
+.header h1 { display: flex; align-items: center; gap: 0.8rem; margin-bottom: 2rem; }
+
+.contentBox {
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+    margin-bottom: 2rem;
+}
+.contentBox h2 { margin-top: 0; margin-bottom: 1.5rem; }
+
+.generatorBox {
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    gap: 1rem;
+    align-items: center;
+    background-color: #f9fafb;
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+}
+.generatorBox h3 { margin: 0; grid-column: 1 / -1; margin-bottom: 1rem; }
+.generatorBox input, .generatorBox select, .generatorBox button {
+    padding: 0.75rem;
+    border: 1px solid #d1d5db;
+    border-radius: 0.375rem;
+}
+.generatorBox button {
+    background-color: #2563eb;
+    color: white;
+    cursor: pointer;
+    display: flex; align-items: center; justify-content: center; gap: 0.5rem;
+}
+
+.reportTable {
+    width: 100%;
+    border-collapse: collapse;
+}
+.reportTable th, .reportTable td {
+    padding: 0.9rem 1rem;
+    text-align: left;
+    border-bottom: 1px solid #e5e7eb;
+}
+.reportTable th { background-color: #f9fafb; font-weight: 600; }
+
+.status { font-weight: 600; padding: 0.2rem 0.6rem; border-radius: 99px; font-size: 0.85rem; }
+.status.pending { background-color: #fefce8; color: #a16207; border: 1px solid #facc15; }
+.status.submitted { background-color: #f0fdf4; color: #15803d; border: 1px solid #4ade80; }
+
+.actions { display: flex; gap: 0.5rem; }
+.actions button {
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 0.25rem;
+    cursor: pointer;
+    display: inline-flex; 
+    align-items: center; 
+    gap: 0.4rem;
+}
+
+.printButton { background-color: #6b7280; color: #fff; }
+.printButton:hover { background-color: #4b5563; }
+.submitButton { background-color: #16a34a; color: #fff; }
+.submitButton:hover { background-color: #15803d; }

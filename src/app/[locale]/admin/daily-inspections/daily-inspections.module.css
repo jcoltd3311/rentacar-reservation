@@ -1,0 +1,154 @@
+
+.container {
+    padding: 2rem;
+}
+
+.container h1 {
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+    font-size: 1.8rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+.toolbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: #f9fafb;
+    border-radius: 0.5rem;
+    margin-bottom: 2rem;
+}
+
+.selectorContainer select {
+    padding: 0.5rem 1rem;
+    border: 1px solid #d1d5db;
+    border-radius: 0.375rem;
+    min-width: 300px;
+}
+
+.newButton {
+    display: inline-flex; 
+    align-items: center; 
+    gap: 0.5rem;
+    background-color: #16a34a;
+    color: white;
+    padding: 0.6rem 1.2rem;
+    border: none;
+    border-radius: 0.375rem;
+    cursor: pointer;
+    font-weight: 500;
+}
+.newButton:hover { background-color: #15803d; }
+
+.formContainer, .historyContainer {
+    background-color: white;
+    padding: 2rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+/* UPDATED: Form Header */
+.formHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1.5rem;
+    border-bottom: 1px solid #e5e7eb;
+    padding-bottom: 1rem;
+}
+
+.formHeader h3 {
+    font-size: 1.4rem;
+    font-weight: 600;
+    margin: 0; /* remove default margin */
+    border: none; /* remove border from h3 itself */
+    padding: 0; /* remove padding from h3 itself */
+}
+
+.scanButton {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    background-color: #1d4ed8;
+    color: white;
+    border: none;
+    padding: 0.6rem 1.2rem;
+    border-radius: 0.375rem;
+    cursor: pointer;
+    font-size: 0.9rem;
+    font-weight: 500;
+    transition: background-color 0.2s;
+}
+.scanButton:hover { background-color: #1e40af; }
+
+.historyContainer h3 {
+    font-size: 1.4rem;
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+    border-bottom: 1px solid #e5e7eb;
+    padding-bottom: 1rem;
+}
+
+.formGroup {
+    margin-bottom: 1.5rem;
+}
+.formGroup label { display: block; font-weight: 500; margin-bottom: 0.5rem; }
+
+.inspectorSelector {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    max-width: 500px;
+}
+.inspectorSelector select {
+    flex-grow: 1;
+    padding: 0.5rem;
+    border: 1px solid #d1d5db;
+    border-radius: 0.25rem;
+}
+.customInspectorInput {
+    flex-grow: 1;
+    padding: 0.5rem;
+    border: 1px solid #d1d5db;
+    border-radius: 0.25rem;
+}
+
+.itemsGrid { display: flex; flex-direction: column; gap: 0.5rem; }
+.itemRow { display: grid; grid-template-columns: 2fr 1fr 3fr; align-items: center; gap: 1rem; padding: 0.75rem; border-radius: 0.25rem; background-color: #f9fafb; }
+.itemName { font-weight: 500; }
+
+.itemStatus { display: flex; gap: 0.5rem; }
+.statusBtn { display: flex; align-items: center; gap: 0.4rem; border: 1px solid #d1d5db; padding: 0.4rem 0.8rem; border-radius: 999px; cursor: pointer; background-color: white; }
+.statusBtn.ok { background-color: #dcfce7; color: #166534; border-color: #a7f3d0; }
+.statusBtn.ng { background-color: #fee2e2; color: #991b1b; border-color: #fecaca; }
+
+.itemNotes input { width: 100%; border: 1px solid #e5e7eb; padding: 0.5rem; border-radius: 0.25rem; }
+
+.customItemContainer { margin-top: 1rem; display: flex; gap: 1rem; }
+.customItemContainer input { flex-grow: 1; padding: 0.5rem; border: 1px solid #d1d5db; border-radius: 0.25rem; }
+.customItemContainer button { padding: 0.5rem 1rem; border: none; background-color: #2563eb; color: white; border-radius: 0.25rem; cursor: pointer; }
+
+.formActions { margin-top: 2rem; display: flex; gap: 1rem; justify-content: flex-end; }
+.saveBtn, .cancelBtn { padding: 0.7rem 1.5rem; border: none; border-radius: 0.375rem; font-weight: 500; cursor: pointer; }
+.saveBtn { background-color: #2563eb; color: white; }
+.cancelBtn { background-color: #e5e7eb; color: #374151; }
+
+.historyList { list-style: none; padding: 0; display: flex; flex-direction: column; gap: 1.5rem; }
+.historyItem { background-color: #f9fafb; border: 1px solid #e5e7eb; border-radius: 0.5rem; overflow: hidden; }
+.historyHeader { display: flex; align-items: center; gap: 1.5rem; padding: 1rem; background-color: white; border-bottom: 1px solid #e5e7eb; }
+.historyHeader strong { font-weight: 600; }
+
+.historyActions { margin-left: auto; display: flex; gap: 0.5rem; }
+.historyActions button { background: none; border: 1px solid #d1d5db; border-radius: 0.25rem; width: 32px; height: 32px; display: grid; place-items: center; cursor: pointer; color: #4b5563; }
+.historyActions button:hover { background-color: #f3f4f6; }
+
+.historyDetails { list-style: none; padding: 1rem; font-size: 0.9rem; }
+.historyDetails li { padding: 0.5rem; border-bottom: 1px solid #f3f4f6; }
+.historyDetails li:last-child { border: none; }
+.historyDetails .detailNg { background-color: #fff1f2; color: #9f1239; border-radius: 0.25rem; }
+.historyDetails .detailNg strong { color: #be123c; }
+.historyDetails p { margin: 0.25rem 0 0 1rem; font-size: 0.85rem; }
+

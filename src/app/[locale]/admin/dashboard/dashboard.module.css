@@ -1,0 +1,120 @@
+
+.dashboardContainer {
+    /* Styles for the main dashboard container */
+  }
+  
+  .title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #e0e0e0;
+    margin-bottom: 2rem;
+  }
+  
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 2rem;
+  }
+  
+  .card {
+    background-color: #2c2c2c;
+    border-radius: 8px;
+    padding: 1.5rem;
+    border: 1px solid #3a3a3a;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 25px rgba(0, 170, 255, 0.3);
+  }
+  
+  .cardHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+  }
+  
+  .cardHeader h3 {
+    margin: 0;
+    font-size: 1.4rem;
+    color: #00aaff;
+  }
+
+  .summaryCard {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+  }
+
+  .cardIcon {
+    font-size: 3rem;
+  }
+
+  .cardContent h3 {
+    margin: 0 0 0.5rem 0;
+    color: #00aaff;
+    font-size: 1.5rem;
+  }
+  
+  .cardContent p {
+    margin: 0.3rem 0;
+    font-size: 1.1rem;
+  }
+
+  .actionsCard .actionButton {
+    background-color: #00aaff;
+    color: #1a1a1a;
+    border: none;
+    padding: 0.8rem 1.2rem;
+    margin: 0.5rem;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.2s;
+  }
+
+  .actionsCard .actionButton:hover {
+    background-color: #0088cc;
+  }
+  
+  .alertsCard {
+    grid-column: span 2; /* Make alerts card wider */
+  }
+  
+  .alertList {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .alertItem {
+    padding: 0.8rem;
+    margin-bottom: 0.5rem;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .alertIcon {
+      margin-right: 0.8rem;
+      font-size: 1.2rem;
+  }
+
+  .alertItem.error {
+    background-color: rgba(255, 100, 100, 0.15);
+    border-left: 4px solid #ff6464;
+  }
+  
+  .alertItem.warning {
+    background-color: rgba(255, 200, 50, 0.15);
+    border-left: 4px solid #ffc832;
+  }
+  
+  .alertItem.info {
+    background-color: rgba(0, 170, 255, 0.1);
+    border-left: 4px solid #00aaff;
+  }
+  

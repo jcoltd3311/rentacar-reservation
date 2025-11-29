@@ -1,0 +1,62 @@
+
+.settingsContainer {
+    /* Main container for settings page */
+  }
+  
+  .title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #e0e0e0;
+    margin-bottom: 0.5rem;
+  }
+  
+  .subtitle {
+    font-size: 1.1rem;
+    color: #a0a0a0;
+    margin-bottom: 3rem;
+  }
+  
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+  }
+  
+  .cardLink {
+    text-decoration: none;
+  }
+  
+  .card {
+    background-color: #2c2c2c;
+    border-radius: 8px;
+    padding: 2rem;
+    border: 1px solid #3a3a3a;
+    transition: transform 0.2s, box-shadow 0.2s, border-color 0.2s;
+    display: flex;
+    align-items: center;
+    height: 100%;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+    border-color: #00aaff;
+    box-shadow: 0 8px 25px rgba(0, 170, 255, 0.2);
+  }
+  
+  .icon {
+    font-size: 2.5rem;
+    margin-right: 1.5rem;
+  }
+  
+  .cardContent h2 {
+    margin: 0 0 0.5rem 0;
+    font-size: 1.4rem;
+    color: #e0e0e0;
+  }
+  
+  .cardContent p {
+    margin: 0;
+    color: #a0a0a0;
+    font-size: 0.95rem;
+  }
+  

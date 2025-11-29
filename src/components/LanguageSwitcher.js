@@ -1,6 +1,6 @@
 'use client';
 
-import { useChangeLocale, useCurrentLocale } from '../../locales/client';
+import { useChangeLocale, useCurrentLocale } from '../locales/client';
 import styles from './LanguageSwitcher.module.css';
 import { LanguageIcon } from '@heroicons/react/24/outline';
 

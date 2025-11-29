@@ -11,40 +11,40 @@
 }
 
 /* You can override default styles of react-date-range here */
-:global(.rdrCalendarWrapper) {
+/* :global(.rdrCalendarWrapper) {
     font-size: 14px;
     width: 100%;
-}
+} */
 
-:global(.rdrMonth) {
+/* :global(.rdrMonth) {
     width: 100%;
-}
+} */
 
-:global(.rdrDay) {
+/* :global(.rdrDay) {
     height: 3em;
-}
+} */
 
-:global(.rdrDay:not(.rdrDayPassive)) {
+/* :global(.rdrDay:not(.rdrDayPassive)) {
     color: #333;
-}
+} */
 
-:global(.rdrDayDisabled) {
+/* :global(.rdrDayDisabled) {
     background-color: #f8f8f8;
     color: #ccc !important;
     text-decoration: line-through;
-}
+} */
 
-:global(.rdrStartEdge, .rdrEndEdge) {
+/* :global(.rdrStartEdge, .rdrEndEdge) {
     background: #3b82f6 !important;
     color: #fff !important;
-}
+} */
 
-:global(.rdrInRange) {
+/* :global(.rdrInRange) {
     background: #dbeafe !important;
     color: #3b82f6 !important;
-}
+} */
 
-:global(.rdrDayHovered, .rdrDayActive) {
+/* :global(.rdrDayHovered, .rdrDayActive) {
     border-color: #3b82f6 !important;
-}
+} */
 

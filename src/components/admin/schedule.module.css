@@ -1,0 +1,38 @@
+
+.container {
+    padding: 2rem;
+}
+
+.container h1 {
+    font-size: 1.8rem;
+    font-weight: 600;
+    margin-bottom: 2rem;
+}
+
+.calendarWrapper {
+    background-color: white;
+    padding: 2rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+}
+
+/* FullCalendarのツールバーのボタンの色を調整 */
+.calendarWrapper :global(.fc-button-primary) {
+    background-color: #3b82f6 !important; 
+    border-color: #3b82f6 !important;
+}
+
+.calendarWrapper :global(.fc-button-primary:hover) {
+    background-color: #2563eb !important;
+    border-color: #2563eb !important;
+}
+
+/* 今日の日付のハイライト */
+.calendarWrapper :global(.fc-day-today) {
+    background-color: #eff6ff !important;
+}
+
+/* イベント（予約バー）のテキストスタイル */
+.calendarWrapper :global(.fc-event-title) {
+    font-weight: 600;
+}

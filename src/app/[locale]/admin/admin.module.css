@@ -1,0 +1,62 @@
+
+.dashboardGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1.5rem;
+    padding: 1.5rem;
+}
+
+.widget {
+    background-color: #fff;
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+    display: flex;
+    flex-direction: column;
+}
+
+.widget h3 {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font-size: 1.1rem;
+    color: #374151;
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+}
+
+/* Span larger widgets */
+.salesChart, .bookingSource {
+   grid-column: span 1; 
+}
+
+@media (min-width: 900px) {
+    .salesChart {
+        grid-column: span 2;
+        grid-row: span 2;
+    }
+    .bookingSource {
+       grid-column: span 2;
+    }
+}
+
+.chartContainer {
+    flex-grow: 1;
+    position: relative;
+    min-height: 250px; /* Ensure chart has space */
+}
+
+.kpiValue {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #1f2937;
+    text-align: center;
+    margin: auto 0;
+}
+
+.kpiValue p {
+    font-size: 1rem;
+    font-weight: 400;
+    color: #6b7280;
+    margin: 0.25rem 0 0 0;
+}
