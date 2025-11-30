@@ -4,7 +4,7 @@ import { useState, useMemo, useEffect, useRef } from 'react';
 import AdminLayout from '../layout';
 import styles from './daily-inspections.module.css';
 import { vehicles, dailyInspections as initialInspections, defaultInspectionItems, addDailyInspection, staff, currentUser } from '../../../../lib/mockData';
-import { FaPlus, FaCheckCircle, FaTimesCircle, FaPrint, FaEnvelope, FaQrcode, FaCamera } from 'react-icons/fa';
+import { FaPlus, FaCheckCircle, FaTimesCircle, FaPrint, FaEnvelope, FaQrcode, FaCamera, FaClipboardCheck } from 'react-icons/fa';
 import { format } from 'date-fns';
 
 const InspectorSelector = ({ selected, onChange, onCustomChange }) => {
@@ -17,7 +17,7 @@ const InspectorSelector = ({ selected, onChange, onCustomChange }) => {
         } else {
             onChange(selected);
         }
-    }, [selected, customInspector]);
+    }, [selected, customInspector, isCustom, onChange, onCustomChange]);
 
     return (
         <div className={styles.inspectorSelector}>
@@ -78,7 +78,7 @@ const InspectionForm = ({ vehicle, onSave, onCancel }) => {
 
     const handleAddCustomItem = () => {
         if (customItem.trim()) {
-            const newItem = { id: `custom-${Date.now()}`, name: customItem.trim(), status: 'OK', notes: '' };
+            const newItem = { id: `custom-${Date.now()}`, label: customItem.trim(), status: 'OK', notes: '' };
             setItems([...items, newItem]);
             setCustomItem('');
         }
@@ -94,7 +94,7 @@ const InspectionForm = ({ vehicle, onSave, onCancel }) => {
             vehicleId: vehicle.id,
             date: new Date().toISOString(),
             inspector: finalInspector,
-            items: items.map(({id, name, status, notes}) => ({itemId: id, name, status, notes})),
+            items: items.map(({id, label, status, notes}) => ({itemId: id, name: label, status, notes})),
         };
         onSave(newInspection);
     };
@@ -126,7 +126,7 @@ const InspectionForm = ({ vehicle, onSave, onCancel }) => {
             <div className={styles.itemsGrid}>
                 {items.map((item, index) => (
                     <div key={item.id} className={styles.itemRow}>
-                        <div className={styles.itemName}>{item.name}</div>
+                        <div className={styles.itemName}>{item.label}</div>
                         <div className={styles.itemStatus}>
                             <button onClick={() => handleStatusChange(index, 'OK')} className={`${styles.statusBtn} ${item.status === 'OK' ? styles.ok : ''}`}><FaCheckCircle /> OK</button>
                             <button onClick={() => handleStatusChange(index, 'NG')} className={`${styles.statusBtn} ${item.status === 'NG' ? styles.ng : ''}`}><FaTimesCircle /> NG</button>
@@ -159,8 +159,8 @@ export default function DailyInspectionsPage() {
     , [selectedVehicle, inspections]);
 
     const handleSaveInspection = (newInspection) => {
-        const saved = addDailyInspection(newInspection);
-        setInspections(prev => [saved, ...prev]);
+        addDailyInspection(newInspection);
+        setInspections(prev => [newInspection, ...prev].sort((a,b) => new Date(b.date) - new Date(a.date)));
         setIsCreating(false);
     };
 
@@ -197,8 +197,8 @@ export default function DailyInspectionsPage() {
                                             </div>
                                         </div>
                                         <ul className={styles.historyDetails}>
-                                            {insp.items.map(item => (
-                                                <li key={item.itemId} className={item.status === 'NG' ? styles.detailNg : ''}>
+                                            {insp.items.map((item, index) => (
+                                                <li key={index} className={item.status === 'NG' ? styles.detailNg : ''}>
                                                     <span>{item.name}: <strong>{item.status}</strong></span>
                                                     {item.notes && <p>メモ: {item.notes}</p>}
                                                 </li>

@@ -2,6 +2,7 @@
 'use client';
 
 import { useRef, useState } from 'react';
+import Image from 'next/image';
 import jsPDF from 'jspdf';
 import html2canvas from 'html2canvas';
 import QRCode from 'qrcode';
@@ -70,7 +71,7 @@ const ContractContent = ({ booking, signature }) => {
                     <p className={styles.paragraph}>東京都新宿区XXXX-XX-XX</p>
                     <p className={styles.paragraph}>TEL: 03-XXXX-XXXX</p>
                 </div>
-                {qrCodeUrl && <img src={qrCodeUrl} alt="Contract QR Code" className={styles.qrCode} />}
+                {qrCodeUrl && <Image src={qrCodeUrl} alt="Contract QR Code" className={styles.qrCode} width={80} height={80} />}
             </footer>
         </div>
     );

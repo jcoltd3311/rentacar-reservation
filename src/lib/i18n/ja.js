@@ -1,3 +1,5 @@
-export default {
+const ja = {
   greeting: 'こんにちは',
 };
+
+export default ja;
