@@ -1,26 +1,37 @@
 
-import admin from 'firebase-admin';
+import { initializeApp, cert, getApps } from 'firebase-admin/app';
+import { getFirestore } from 'firebase-admin/firestore';
+import { getAuth } from 'firebase-admin/auth';
+
+let db = null;
+let auth = null;
+let adminApp;
 
 // 既に初期化されているかを確認し、重複して初期化されるのを防ぐ
-if (!admin.apps.length) {
-  try {
-    if (process.env.FIREBASE_SERVICE_ACCOUNT_JSON) {
-      // 環境変数からサービスアカウントキーの情報を取得
-      const serviceAccount = JSON.parse(process.env.FIREBASE_SERVICE_ACCOUNT_JSON);
-      admin.initializeApp({
-        credential: admin.credential.cert(serviceAccount),
+if (getApps().length === 0) {
+  const serviceAccountJson = process.env.FIREBASE_SERVICE_ACCOUNT_JSON;
+  if (serviceAccountJson) {
+    try {
+      const serviceAccount = JSON.parse(serviceAccountJson);
+      adminApp = initializeApp({
+        credential: cert(serviceAccount),
       });
-    } else {
-      console.warn('FIREBASE_SERVICE_ACCOUNT_JSON is not set. Firebase Admin SDK is not initialized.');
+      console.log('Firebase Admin SDK initialized successfully (modular).');
+    } catch (e) {
+      console.error('Firebase Admin SDK initialization error:', e);
     }
-  } catch (error) {
-    console.error('Firebase admin initialization error', error.stack);
-    // ビルドを止めないように、エラーをスローしない
-    // throw new Error('Could not initialize Firebase Admin SDK.');
+  } else {
+    console.warn('FIREBASE_SERVICE_ACCOUNT_JSON is not set. Firebase Admin SDK is not initialized.');
   }
+} else {
+  // 既に初期化されている場合は、既存のAppインスタンスを取得
+  adminApp = getApps()[0];
 }
 
-// 初期化されたFirestoreインスタンスをエクスポート
-const db = admin.apps.length ? admin.firestore() : null;
+// Appインスタンスが正常に取得できた場合のみ、各サービスを初期化
+if (adminApp) {
+  db = getFirestore(adminApp);
+  auth = getAuth(adminApp);
+}
 
-export { db, admin };
+export { db, auth };
